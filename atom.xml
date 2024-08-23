@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Hexo</title>
+  
+  <subtitle>Turingzhi&#39;s Website</subtitle>
+  <link href="http://turingzhi.github.io/atom.xml" rel="self"/>
+  
+  <link href="http://turingzhi.github.io/"/>
+  <updated>2024-08-16T14:56:42.017Z</updated>
+  <id>http://turingzhi.github.io/</id>
+  
+  <author>
+    <name>Turingzhi</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Tutorial for Starters for Coders on Mac</title>
+    <link href="http://turingzhi.github.io/2024/08/16/tutorial-for-starters/"/>
+    <id>http://turingzhi.github.io/2024/08/16/tutorial-for-starters/</id>
+    <published>2024-08-16T13:57:29.000Z</published>
+    <updated>2024-08-16T14:56:42.017Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;Tutorial-for-Starters&quot;&gt;&lt;a href=&quot;#Tutorial-for-Starters&quot; class=&quot;headerlink&quot; title=&quot;Tutorial for Starters&quot;&gt;&lt;/a&gt;Tutorial for</summary>
+        
+      
+    
+    
+    
+    <category term="tutorial" scheme="http://turingzhi.github.io/categories/tutorial/"/>
+    
+    
+    <category term="tutorial" scheme="http://turingzhi.github.io/tags/tutorial/"/>
+    
+    <category term="mac" scheme="http://turingzhi.github.io/tags/mac/"/>
+    
+    <category term="starter" scheme="http://turingzhi.github.io/tags/starter/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Algorithms for Massive Datasets</title>
+    <link href="http://turingzhi.github.io/2024/08/15/algorithms-for-massive-datasets/"/>
+    <id>http://turingzhi.github.io/2024/08/15/algorithms-for-massive-datasets/</id>
+    <published>2024-08-15T13:13:00.000Z</published>
+    <updated>2024-08-16T14:46:13.410Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;1-Hashing-Integer-Data-Structures-I&quot;&gt;&lt;a href=&quot;#1-Hashing-Integer-Data-Structures-I&quot; class=&quot;headerlink&quot; title=&quot;1.Hashing(Integer</summary>
+        
+      
+    
+    
+    
+    <category term="algorithm" scheme="http://turingzhi.github.io/categories/algorithm/"/>
+    
+    
+    <category term="algorithm" scheme="http://turingzhi.github.io/tags/algorithm/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Missing Semester Lecture7: Debugging and Profiling</title>
+    <link href="http://turingzhi.github.io/2024/07/11/missing-semester-lecture7/"/>
+    <id>http://turingzhi.github.io/2024/07/11/missing-semester-lecture7/</id>
+    <published>2024-07-11T04:13:55.000Z</published>
+    <updated>2024-08-19T20:58:14.219Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h4 id=&quot;Lecture-7-Debugging-and-Profiling&quot;&gt;&lt;a href=&quot;#Lecture-7-Debugging-and-Profiling&quot; class=&quot;headerlink&quot; title=&quot;Lecture 7: Debugging and</summary>
+        
+      
+    
+    
+    
+    <category term="missing semester" scheme="http://turingzhi.github.io/categories/missing-semester/"/>
+    
+    
+    <category term="debug" scheme="http://turingzhi.github.io/tags/debug/"/>
+    
+    <category term="profiling" scheme="http://turingzhi.github.io/tags/profiling/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Missing Semester Lecture6: Version Control(git)</title>
+    <link href="http://turingzhi.github.io/2024/04/26/missing-semester-lecture6/"/>
+    <id>http://turingzhi.github.io/2024/04/26/missing-semester-lecture6/</id>
+    <published>2024-04-26T20:03:57.000Z</published>
+    <updated>2024-08-01T20:23:26.066Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h3 id=&quot;Lecture-6-Version-Control-git&quot;&gt;&lt;a href=&quot;#Lecture-6-Version-Control-git&quot; class=&quot;headerlink&quot; title=&quot;Lecture 6:  Version</summary>
+        
+      
+    
+    
+    
+    <category term="missing semester" scheme="http://turingzhi.github.io/categories/missing-semester/"/>
+    
+    
+    <category term="git" scheme="http://turingzhi.github.io/tags/git/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Missing Semester Lecture5: Command-line Environment</title>
+    <link href="http://turingzhi.github.io/2024/04/22/missing-semester-lecture5/"/>
+    <id>http://turingzhi.github.io/2024/04/22/missing-semester-lecture5/</id>
+    <published>2024-04-22T20:48:25.000Z</published>
+    <updated>2024-04-22T20:50:30.393Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h3 id=&quot;Lecture-5-Command-line-Environment&quot;&gt;&lt;a href=&quot;#Lecture-5-Command-line-Environment&quot; class=&quot;headerlink&quot; title=&quot;Lecture 5: Command-line</summary>
+        
+      
+    
+    
+    
+    <category term="missing semester" scheme="http://turingzhi.github.io/categories/missing-semester/"/>
+    
+    
+    <category term="tmux" scheme="http://turingzhi.github.io/tags/tmux/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Missing Semester Lecture4: Data Wrangling</title>
+    <link href="http://turingzhi.github.io/2024/04/21/missing-semester-lecture4/"/>
+    <id>http://turingzhi.github.io/2024/04/21/missing-semester-lecture4/</id>
+    <published>2024-04-21T15:57:46.000Z</published>
+    <updated>2024-04-21T22:12:11.329Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h3 id=&quot;Lecture-4-Data-Wrangling&quot;&gt;&lt;a href=&quot;#Lecture-4-Data-Wrangling&quot; class=&quot;headerlink&quot; title=&quot;Lecture 4: Data Wrangling&quot;&gt;&lt;/a&gt;Lecture 4:</summary>
+        
+      
+    
+    
+    
+    <category term="missing semester" scheme="http://turingzhi.github.io/categories/missing-semester/"/>
+    
+    
+    <category term="shell" scheme="http://turingzhi.github.io/tags/shell/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Missing Semester Lecture3: Editor(vim)</title>
+    <link href="http://turingzhi.github.io/2024/04/19/missing-semester-lecture3/"/>
+    <id>http://turingzhi.github.io/2024/04/19/missing-semester-lecture3/</id>
+    <published>2024-04-19T00:44:29.000Z</published>
+    <updated>2024-04-21T22:13:07.377Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h3 id=&quot;Lecture-3-Editors-vim&quot;&gt;&lt;a href=&quot;#Lecture-3-Editors-vim&quot; class=&quot;headerlink&quot; title=&quot;Lecture 3: Editors(vim)&quot;&gt;&lt;/a&gt;Lecture 3:</summary>
+        
+      
+    
+    
+    
+    <category term="missing semester" scheme="http://turingzhi.github.io/categories/missing-semester/"/>
+    
+    
+    <category term="vim" scheme="http://turingzhi.github.io/tags/vim/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Missing Semester Lecture2: Shell Tools and Scripting</title>
+    <link href="http://turingzhi.github.io/2024/04/15/missing-semester-lecture2/"/>
+    <id>http://turingzhi.github.io/2024/04/15/missing-semester-lecture2/</id>
+    <published>2024-04-15T17:23:21.000Z</published>
+    <updated>2024-04-22T13:57:48.526Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h3 id=&quot;Lecture-2-Shell-Tools-and-Scripting&quot;&gt;&lt;a href=&quot;#Lecture-2-Shell-Tools-and-Scripting&quot; class=&quot;headerlink&quot; title=&quot;Lecture 2: Shell</summary>
+        
+      
+    
+    
+    
+    <category term="missing semester" scheme="http://turingzhi.github.io/categories/missing-semester/"/>
+    
+    
+    <category term="shell" scheme="http://turingzhi.github.io/tags/shell/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Missing Semester Lecture1: Course Overview + The Shell</title>
+    <link href="http://turingzhi.github.io/2024/04/15/missing-semester-lecture1/"/>
+    <id>http://turingzhi.github.io/2024/04/15/missing-semester-lecture1/</id>
+    <published>2024-04-15T17:09:26.000Z</published>
+    <updated>2024-04-21T16:01:38.494Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h3 id=&quot;Lecture-1-Course-Overview-The-Shell&quot;&gt;&lt;a href=&quot;#Lecture-1-Course-Overview-The-Shell&quot; class=&quot;headerlink&quot; title=&quot;Lecture 1: Course</summary>
+        
+      
+    
+    
+    
+    <category term="missing semester" scheme="http://turingzhi.github.io/categories/missing-semester/"/>
+    
+    
+    <category term="shell" scheme="http://turingzhi.github.io/tags/shell/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="http://turingzhi.github.io/2024/04/15/hello-world/"/>
+    <id>http://turingzhi.github.io/2024/04/15/hello-world/</id>
+    <published>2024-04-15T16:57:41.581Z</published>
+    <updated>2024-04-21T16:10:44.570Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.io/docs/&quot;&gt;documentation&lt;/a&gt;</summary>
+        
+      
+    
+    
+    
+    
+    <category term="hexo" scheme="http://turingzhi.github.io/tags/hexo/"/>
+    
+  </entry>
+  
+</feed>
