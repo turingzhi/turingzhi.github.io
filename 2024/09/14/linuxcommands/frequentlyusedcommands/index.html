@@ -4,11 +4,14 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="keywords" content="Missing Semester Lecture3: Editor(vim), Hexo">
-    <meta name="description" content="Lecture 3: Editors(vim)link: https://missing.csail.mit.edu/2020/editors/
-normal-&amp;gt;insert: i
-insert-&amp;gt;normal: 
-normal">
+    <meta name="keywords" content="Frequently Used Commands, Hexo">
+    <meta name="description" content="some frequently used commandscat &amp;amp; less &amp;amp; tail &amp;amp; vim
+less filename.log
+/ search_word
+
+
+tail -f filename.log
+">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
     <meta name="renderer" content="webkit|ie-stand|ie-comp">
@@ -20,7 +23,7 @@ normal">
     <!-- Global site tag (gtag.js) - Google Analytics -->
 
 
-    <title>Missing Semester Lecture3: Editor(vim) | Hexo</title>
+    <title>Frequently Used Commands | Hexo</title>
     <link rel="icon" type="image/png" href="/favicon.png">
     
 
@@ -57,7 +60,119 @@ normal">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.css">
 
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/hexo-math@4.0.0/dist/style.css">
-<!-- hexo injector head_end end --><meta name="generator" content="Hexo 7.3.0">
+<!-- hexo injector head_end end --><meta name="generator" content="Hexo 7.3.0"><style>mjx-container[jax="SVG"] {
+  direction: ltr;
+}
+
+mjx-container[jax="SVG"] > svg {
+  overflow: visible;
+}
+
+mjx-container[jax="SVG"][display="true"] {
+  display: block;
+  text-align: center;
+  margin: 1em 0;
+}
+
+mjx-container[jax="SVG"][justify="left"] {
+  text-align: left;
+}
+
+mjx-container[jax="SVG"][justify="right"] {
+  text-align: right;
+}
+
+g[data-mml-node="merror"] > g {
+  fill: red;
+  stroke: red;
+}
+
+g[data-mml-node="merror"] > rect[data-background] {
+  fill: yellow;
+  stroke: none;
+}
+
+g[data-mml-node="mtable"] > line[data-line] {
+  stroke-width: 70px;
+  fill: none;
+}
+
+g[data-mml-node="mtable"] > rect[data-frame] {
+  stroke-width: 70px;
+  fill: none;
+}
+
+g[data-mml-node="mtable"] > .mjx-dashed {
+  stroke-dasharray: 140;
+}
+
+g[data-mml-node="mtable"] > .mjx-dotted {
+  stroke-linecap: round;
+  stroke-dasharray: 0,140;
+}
+
+g[data-mml-node="mtable"] > svg {
+  overflow: visible;
+}
+
+[jax="SVG"] mjx-tool {
+  display: inline-block;
+  position: relative;
+  width: 0;
+  height: 0;
+}
+
+[jax="SVG"] mjx-tool > mjx-tip {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+mjx-tool > mjx-tip {
+  display: inline-block;
+  padding: .2em;
+  border: 1px solid #888;
+  font-size: 70%;
+  background-color: #F8F8F8;
+  color: black;
+  box-shadow: 2px 2px 5px #AAAAAA;
+}
+
+g[data-mml-node="maction"][data-toggle] {
+  cursor: pointer;
+}
+
+mjx-status {
+  display: block;
+  position: fixed;
+  left: 1em;
+  bottom: 1em;
+  min-width: 25%;
+  padding: .2em .4em;
+  border: 1px solid #888;
+  font-size: 90%;
+  background-color: #F8F8F8;
+  color: black;
+}
+
+foreignObject[data-mjx-xml] {
+  font-family: initial;
+  line-height: normal;
+  overflow: visible;
+}
+
+.MathJax path {
+  stroke-width: 3;
+}
+
+mjx-container[display="true"] {
+  overflow: auto hidden;
+}
+
+mjx-container[display="true"] + br {
+  display: none;
+}
+</style>
 <style>.github-emoji { position: relative; display: inline-block; width: 1.2em; min-height: 1.2em; overflow: hidden; vertical-align: top; color: transparent; }  .github-emoji > span { position: relative; z-index: 10; }  .github-emoji img, .github-emoji .fancybox { margin: 0 !important; padding: 0 !important; border: none !important; outline: none !important; text-decoration: none !important; user-select: none !important; cursor: auto !important; }  .github-emoji img { height: 1.2em !important; width: 1.2em !important; position: absolute !important; left: 50% !important; top: 50% !important; transform: translate(-50%, -50%) !important; user-select: none !important; cursor: auto !important; } .github-emoji-fallback { color: inherit; } .github-emoji-fallback img { opacity: 0 !important; }</style>
 <link rel="alternate" href="/atom.xml" title="Hexo" type="application/atom+xml">
 </head>
@@ -235,12 +350,12 @@ normal">
 
 
 
-<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/23.jpg')">
+<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/10.jpg')">
     <div class="container" style="right: 0px;left: 0px;">
         <div class="row">
             <div class="col s12 m12 l12">
                 <div class="brand">
-                    <h1 class="description center-align post-title">Missing Semester Lecture3: Editor(vim)</h1>
+                    <h1 class="description center-align post-title">Frequently Used Commands</h1>
                 </div>
             </div>
         </div>
@@ -264,8 +379,8 @@ normal">
                     
                     <div class="article-tag">
                         
-                            <a href="/tags/vim/">
-                                <span class="chip bg-color">vim</span>
+                            <a href="/tags/Linux-Command/">
+                                <span class="chip bg-color">Linux Command</span>
                             </a>
                         
                     </div>
@@ -276,8 +391,8 @@ normal">
                     <div class="post-cate">
                         <i class="fas fa-bookmark fa-fw icon-category"></i>
                         
-                            <a href="/categories/missing-semester/" class="post-category">
-                                missing semester
+                            <a href="/categories/Linux/" class="post-category">
+                                Linux
                             </a>
                         
                     </div>
@@ -289,28 +404,28 @@ normal">
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-minus fa-fw"></i>Publish Date:&nbsp;&nbsp;
-                    2024-04-19
+                    2024-09-14
                 </div>
                 
 
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-check fa-fw"></i>Update Date:&nbsp;&nbsp;
-                    2024-04-22
+                    2024-09-14
                 </div>
                 
 
                 
                 <div class="info-break-policy">
                     <i class="far fa-file-word fa-fw"></i>Word Count:&nbsp;&nbsp;
-                    488
+                    259
                 </div>
                 
 
                 
                 <div class="info-break-policy">
                     <i class="far fa-clock fa-fw"></i>Read Times:&nbsp;&nbsp;
-                    3 Min
+                    1 Min
                 </div>
                 
 
@@ -333,50 +448,110 @@ normal">
 
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <h3 id="Lecture-3-Editors-vim"><a href="#Lecture-3-Editors-vim" class="headerlink" title="Lecture 3: Editors(vim)"></a>Lecture 3: Editors(vim)</h3><p>link: <a target="_blank" rel="noopener" href="https://missing.csail.mit.edu/2020/editors/">https://missing.csail.mit.edu/2020/editors/</a></p>
-<p>normal-&gt;insert: i</p>
-<p>insert-&gt;normal: <esc></esc></p>
-<p>normal-&gt;replace: R</p>
-<p>nomral-&gt;visual: v</p>
-<p>normal-&gt;visual-line: <s-v></s-v></p>
-<p>noraml-&gt;visual-block: <c-v></c-v></p>
-<p>normal-&gt;command-line: <strong>:</strong></p>
-<pre><code class="lang-bash">:help :w
-</code></pre>
-<blockquote>
-<p>show the usage of ‘:w’</p>
-</blockquote>
-<p>shift + 6(^) : move the cursor to the beginning of the line where is not empty.</p>
-<p>L: move the cursor to the lowest of the screen</p>
-<p>M: middle</p>
-<p>H: highest</p>
-<p>fo: jump the next first o</p>
-<p>Fo: jump to the previous o</p>
-<p>to: jump to before the next first o</p>
-<p>To: jump to after the previous first o</p>
-<p>in nomral mode: c = d + i (c is short for change)</p>
-<p>cc = dd + i</p>
-<p><c-r>: redo</c-r></p>
-<p>undo is undo all the insert change or last change in normal mode</p>
-<p>v: block</p>
-<p>V: rectangle</p>
-<p>ci[ : delete the contents that are inside the brackets and go to the insert mode.</p>
-<p>ca[: delete the contents that are around the brackets and go to the insert mode</p>
-<p>%: jump to the other parentheses</p>
-<p>a: a is short for append</p>
-<p>A: append at the end of this line</p>
-<p>~: change the uppercase and lowercase</p>
-<p>U: return the line to its original state.</p>
-<p><c-g>: show your location in the file and the file status.</c-g></p>
-<p>number + G: return to the line with the number</p>
-<p>To search for the same phrase again, simply type  n .<br>To search for the same phrase in the opposite direction, type  N .<br>To search for a phrase in the backward direction, use  ?  instead of  / .<br>To go back to where you came from press  CTRL-O  (Keep Ctrl down while pressing the letter o).  Repeat to go back further.  CTRL-I goes forward.</p>
-<p>s: x+i</p>
-<p>:s/thee/the: Note that this command only changes the first occurrence of “thee” in the line.</p>
-<p>:s/thee/the/g .  Adding the  g  flag means to substitute globally in the line, change all occurrences of “thee” in the line.</p>
-<p>To substitute new for the first old in a line type    :s/old/new<br>To substitute new for all ‘old’s on a line type       :s/old/new/g<br>To substitute phrases between two line #’s type       :#,#s/old/new/g<br>To substitute all occurrences in the file type        :%s/old/new/g<br> To ask for confirmation each time add ‘c’             :%s/old/new/gc</p>
-<p>Type  :!  followed by an external command to execute that command.</p>
-<p>Now type:   :w TEST   (where TEST is the filename you chose.) This saves the whole file (the Vim Tutor) under the name TEST.</p>
-<p>:!command  executes an external command.<br>Some useful examples are:<br>:!ls            -  shows a directory listing.<br>:!rm FILENAME   -  removes file FILENAME.<br>:w FILENAME  writes the current Vim file to disk with name FILENAME.<br>v  motion  :w FILENAME  saves the Visually selected lines in file FILENAME.<br>:r FILENAME  retrieves disk file FILENAME and puts it below the cursor position.<br>:r !dir  reads the output of the dir command and puts it below the cursor position.</p>
+                <h3 id="some-frequently-used-commands"><a href="#some-frequently-used-commands" class="headerlink" title="some frequently used commands"></a>some frequently used commands</h3><h4 id="cat-amp-less-amp-tail-amp-vim"><a href="#cat-amp-less-amp-tail-amp-vim" class="headerlink" title="cat &amp; less &amp; tail &amp; vim"></a>cat &amp; less &amp; tail &amp; vim</h4><ul>
+<li>less filename.log<ul>
+<li><code>/</code> search_word</li>
+</ul>
+</li>
+<li>tail -f filename.log<ul>
+<li><code>f</code> follow</li>
+</ul>
+</li>
+<li>vim filename.log</li>
+</ul>
+<h4 id="ping-amp-telnet-amp-traceroute-amp-dig"><a href="#ping-amp-telnet-amp-traceroute-amp-dig" class="headerlink" title="ping &amp; telnet &amp; traceroute &amp; dig"></a>ping &amp; telnet &amp; traceroute &amp; dig</h4><ul>
+<li>ping <a target="_blank" rel="noopener" href="http://www.xxx.com">http://www.xxx.com</a><ul>
+<li>check the network connection</li>
+</ul>
+</li>
+<li>telnet www.xxx.com port_num<ul>
+<li>check the port connection</li>
+</ul>
+</li>
+</ul>
+<h4 id="netstat"><a href="#netstat" class="headerlink" title="netstat"></a>netstat</h4><ul>
+<li>netstat -lntp<ul>
+<li>check the port status</li>
+<li><code>l</code> listening,<code>netstat -l</code> shows the listening sockets</li>
+<li><code>n</code> number</li>
+<li><code>t</code> tcp</li>
+<li><code>p</code> process</li>
+</ul>
+</li>
+<li>netstat -latp<ul>
+<li><code>l</code> listening,<code>netstat -l</code> shows the listening sockets</li>
+<li><code>a</code> all</li>
+<li><code>t</code> tcp</li>
+<li><code>p</code> process</li>
+</ul>
+</li>
+</ul>
+<h4 id="ps"><a href="#ps" class="headerlink" title="ps"></a>ps</h4><ul>
+<li>ps -ef<ul>
+<li><code>ps</code> process status</li>
+<li><code>e</code> select all processes</li>
+<li><code>f</code> full format</li>
+</ul>
+</li>
+</ul>
+<h4 id="top-amp-df-amp-du"><a href="#top-amp-df-amp-du" class="headerlink" title="top &amp; df &amp; du"></a>top &amp; df &amp; du</h4><ul>
+<li>top<ul>
+<li>check the cpu and memory usage</li>
+</ul>
+</li>
+<li>df -h<ul>
+<li>check the disk usage</li>
+<li><code>h</code> human-readable</li>
+</ul>
+</li>
+<li>du -sh<ul>
+<li>check the disk usage</li>
+</ul>
+</li>
+</ul>
+<h4 id="gt-amp-gt-gt-amp-lt-amp"><a href="#gt-amp-gt-gt-amp-lt-amp" class="headerlink" title="> &amp; >> &amp; < &amp; |"></a>&gt; &amp; &gt;&gt; &amp; &lt; &amp; |</h4><ul>
+<li>bash xxx.sh &gt; xxx.log<ul>
+<li><code>&gt;</code> overwrite</li>
+</ul>
+</li>
+<li>bash xx.sh &gt;&gt; xxx.log<ul>
+<li><code>&gt;&gt;</code> append</li>
+<li><code>2&gt;&amp;1</code> redirect the error message to the standard output</li>
+</ul>
+</li>
+<li>bash xxx.sh &lt; xxx.log<ul>
+<li><code>&lt;</code> input</li>
+<li><code>|</code> pipe</li>
+</ul>
+</li>
+</ul>
+<h4 id="echo-amp-sed-amp-awk-amp-systemctl-service"><a href="#echo-amp-sed-amp-awk-amp-systemctl-service" class="headerlink" title="echo &amp; sed &amp; awk &amp; systemctl/service"></a>echo &amp; sed &amp; awk &amp; systemctl/service</h4><ul>
+<li><p>echo “hello world”</p>
+<ul>
+<li>print the string</li>
+<li><code>echo $?</code> print the return value</li>
+<li><code>echo $0</code> print the script name</li>
+<li><code>echo $1</code> print the first parameter</li>
+<li><code>echo $*</code> print all the parameters</li>
+<li><code>echo $@</code> print all the parameters</li>
+<li><code>echo $$</code> print the process id</li>
+<li><code>echo $!</code> print the last process id</li>
+</ul>
+</li>
+<li><p>sed ‘s/old/new/g’ filename</p>
+<ul>
+<li><code>s</code> substitute</li>
+<li><code>g</code> global</li>
+</ul>
+</li>
+<li>awk ‘{print $1}’ filename<ul>
+<li><code>awk</code> pattern scanning and processing language</li>
+<li><code>{print $1}</code> print the first column</li>
+</ul>
+</li>
+<li>systemctl start/stop/restart service_name</li>
+<li>service service_name start/stop/restart</li>
+</ul>
 
                 
             </div>
@@ -403,7 +578,7 @@ normal">
                     </i>
                 </span>
                 <span class="reprint-info">
-                    <a href="http://turingzhi.github.io/2024/04/19/missing-semester-lecture3/">http://turingzhi.github.io/2024/04/19/missing-semester-lecture3/</a>
+                    <a href="http://turingzhi.github.io/2024/09/14/linuxcommands/frequentlyusedcommands/">http://turingzhi.github.io/2024/09/14/linuxcommands/frequentlyusedcommands/</a>
                 </span>
             </div>
             <div class="reprint__notice">
@@ -441,8 +616,8 @@ normal">
                     
                         <div class="article-tag">
                             
-                                <a href="/tags/vim/">
-                                    <span class="chip bg-color">vim</span>
+                                <a href="/tags/Linux-Command/">
+                                    <span class="chip bg-color">Linux Command</span>
                                 </a>
                             
                         </div>
@@ -485,17 +660,18 @@ normal">
 <article id="prenext-posts" class="prev-next articles">
     <div class="row article-row">
         
-        <div class="article col s12 m6" data-aos="fade-up">
+        <div class="article col s12 m6" data-aos="fade-up" data-aos="fade-up">
             <div class="article-badge left-badge text-color">
-                <i class="fas fa-chevron-left"></i>&nbsp;Previous</div>
+                <i class="far fa-dot-circle"></i>&nbsp;Current
+            </div>
             <div class="card">
-                <a href="/2024/04/21/missing-semester-lecture4/">
+                <a href="/2024/09/14/linuxcommands/frequentlyusedcommands/">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/9.jpg" class="responsive-img" alt="Missing Semester Lecture4: Data Wrangling">
+                        <img src="/medias/featureimages/10.jpg" class="responsive-img" alt="Frequently Used Commands">
                         
-                        <span class="card-title">Missing Semester Lecture4: Data Wrangling</span>
+                        <span class="card-title">Frequently Used Commands</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
@@ -505,26 +681,27 @@ normal">
                         
                     </div>
                     <div class="publish-info">
-                        <span class="publish-date">
-                            <i class="far fa-clock fa-fw icon-date"></i>2024-04-21
-                        </span>
+                            <span class="publish-date">
+                                <i class="far fa-clock fa-fw icon-date"></i>2024-09-14
+                            </span>
                         <span class="publish-author">
                             
                             <i class="fas fa-bookmark fa-fw icon-category"></i>
                             
-                            <a href="/categories/missing-semester/" class="post-category">
-                                    missing semester
+                            <a href="/categories/Linux/" class="post-category">
+                                    Linux
                                 </a>
                             
                             
                         </span>
                     </div>
                 </div>
+
                 
                 <div class="card-action article-tags">
                     
-                    <a href="/tags/shell/">
-                        <span class="chip bg-color">shell</span>
+                    <a href="/tags/Linux-Command/">
+                        <span class="chip bg-color">Linux Command</span>
                     </a>
                     
                 </div>
@@ -538,13 +715,13 @@ normal">
                 Next&nbsp;<i class="fas fa-chevron-right"></i>
             </div>
             <div class="card">
-                <a href="/2024/04/15/missing-semester-lecture2/">
+                <a href="/2024/09/03/missing-semester/missing-semester-lecture8/">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/17.jpg" class="responsive-img" alt="Missing Semester Lecture2: Shell Tools and Scripting">
+                        <img src="/medias/featureimages/0.jpg" class="responsive-img" alt="Missing Semester Lecture 8">
                         
-                        <span class="card-title">Missing Semester Lecture2: Shell Tools and Scripting</span>
+                        <span class="card-title">Missing Semester Lecture 8</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
@@ -555,7 +732,7 @@ normal">
                     </div>
                     <div class="publish-info">
                             <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2024-04-15
+                                <i class="far fa-clock fa-fw icon-date"></i>2024-09-03
                             </span>
                         <span class="publish-author">
                             
@@ -568,14 +745,6 @@ normal">
                             
                         </span>
                     </div>
-                </div>
-                
-                <div class="card-action article-tags">
-                    
-                    <a href="/tags/shell/">
-                        <span class="chip bg-color">shell</span>
-                    </a>
-                    
                 </div>
                 
             </div>
@@ -734,6 +903,13 @@ normal">
 
 </main>
 
+
+<script src="https://cdn.bootcss.com/mathjax/2.7.5/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+<script>
+    MathJax.Hub.Config({
+        tex2jax: {inlineMath: [['$', '$'], ['\\(', '\\)']]}
+    });
+</script>
 
 
 

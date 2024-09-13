@@ -4,11 +4,9 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="keywords" content="Missing Semester Lecture3: Editor(vim), Hexo">
-    <meta name="description" content="Lecture 3: Editors(vim)link: https://missing.csail.mit.edu/2020/editors/
-normal-&amp;gt;insert: i
-insert-&amp;gt;normal: 
-normal">
+    <meta name="keywords" content="Missing Semester Lecture 8, Hexo">
+    <meta name="description" content="Lecture 8: Metaprogramminghttps://missing.csail.mit.edu/2020/metaprogramming/
+Build systemsmake is one of the most commo">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
     <meta name="renderer" content="webkit|ie-stand|ie-comp">
@@ -20,7 +18,7 @@ normal">
     <!-- Global site tag (gtag.js) - Google Analytics -->
 
 
-    <title>Missing Semester Lecture3: Editor(vim) | Hexo</title>
+    <title>Missing Semester Lecture 8 | Hexo</title>
     <link rel="icon" type="image/png" href="/favicon.png">
     
 
@@ -57,7 +55,119 @@ normal">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.css">
 
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/hexo-math@4.0.0/dist/style.css">
-<!-- hexo injector head_end end --><meta name="generator" content="Hexo 7.3.0">
+<!-- hexo injector head_end end --><meta name="generator" content="Hexo 7.3.0"><style>mjx-container[jax="SVG"] {
+  direction: ltr;
+}
+
+mjx-container[jax="SVG"] > svg {
+  overflow: visible;
+}
+
+mjx-container[jax="SVG"][display="true"] {
+  display: block;
+  text-align: center;
+  margin: 1em 0;
+}
+
+mjx-container[jax="SVG"][justify="left"] {
+  text-align: left;
+}
+
+mjx-container[jax="SVG"][justify="right"] {
+  text-align: right;
+}
+
+g[data-mml-node="merror"] > g {
+  fill: red;
+  stroke: red;
+}
+
+g[data-mml-node="merror"] > rect[data-background] {
+  fill: yellow;
+  stroke: none;
+}
+
+g[data-mml-node="mtable"] > line[data-line] {
+  stroke-width: 70px;
+  fill: none;
+}
+
+g[data-mml-node="mtable"] > rect[data-frame] {
+  stroke-width: 70px;
+  fill: none;
+}
+
+g[data-mml-node="mtable"] > .mjx-dashed {
+  stroke-dasharray: 140;
+}
+
+g[data-mml-node="mtable"] > .mjx-dotted {
+  stroke-linecap: round;
+  stroke-dasharray: 0,140;
+}
+
+g[data-mml-node="mtable"] > svg {
+  overflow: visible;
+}
+
+[jax="SVG"] mjx-tool {
+  display: inline-block;
+  position: relative;
+  width: 0;
+  height: 0;
+}
+
+[jax="SVG"] mjx-tool > mjx-tip {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+mjx-tool > mjx-tip {
+  display: inline-block;
+  padding: .2em;
+  border: 1px solid #888;
+  font-size: 70%;
+  background-color: #F8F8F8;
+  color: black;
+  box-shadow: 2px 2px 5px #AAAAAA;
+}
+
+g[data-mml-node="maction"][data-toggle] {
+  cursor: pointer;
+}
+
+mjx-status {
+  display: block;
+  position: fixed;
+  left: 1em;
+  bottom: 1em;
+  min-width: 25%;
+  padding: .2em .4em;
+  border: 1px solid #888;
+  font-size: 90%;
+  background-color: #F8F8F8;
+  color: black;
+}
+
+foreignObject[data-mjx-xml] {
+  font-family: initial;
+  line-height: normal;
+  overflow: visible;
+}
+
+.MathJax path {
+  stroke-width: 3;
+}
+
+mjx-container[display="true"] {
+  overflow: auto hidden;
+}
+
+mjx-container[display="true"] + br {
+  display: none;
+}
+</style>
 <style>.github-emoji { position: relative; display: inline-block; width: 1.2em; min-height: 1.2em; overflow: hidden; vertical-align: top; color: transparent; }  .github-emoji > span { position: relative; z-index: 10; }  .github-emoji img, .github-emoji .fancybox { margin: 0 !important; padding: 0 !important; border: none !important; outline: none !important; text-decoration: none !important; user-select: none !important; cursor: auto !important; }  .github-emoji img { height: 1.2em !important; width: 1.2em !important; position: absolute !important; left: 50% !important; top: 50% !important; transform: translate(-50%, -50%) !important; user-select: none !important; cursor: auto !important; } .github-emoji-fallback { color: inherit; } .github-emoji-fallback img { opacity: 0 !important; }</style>
 <link rel="alternate" href="/atom.xml" title="Hexo" type="application/atom+xml">
 </head>
@@ -235,12 +345,12 @@ normal">
 
 
 
-<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/23.jpg')">
+<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/0.jpg')">
     <div class="container" style="right: 0px;left: 0px;">
         <div class="row">
             <div class="col s12 m12 l12">
                 <div class="brand">
-                    <h1 class="description center-align post-title">Missing Semester Lecture3: Editor(vim)</h1>
+                    <h1 class="description center-align post-title">Missing Semester Lecture 8</h1>
                 </div>
             </div>
         </div>
@@ -262,13 +372,9 @@ normal">
             <div class="row tag-cate">
                 <div class="col s7">
                     
-                    <div class="article-tag">
-                        
-                            <a href="/tags/vim/">
-                                <span class="chip bg-color">vim</span>
-                            </a>
-                        
-                    </div>
+                          <div class="article-tag">
+                            <span class="chip bg-color">No tag</span>
+                          </div>
                     
                 </div>
                 <div class="col s5 right-align">
@@ -289,28 +395,28 @@ normal">
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-minus fa-fw"></i>Publish Date:&nbsp;&nbsp;
-                    2024-04-19
+                    2024-09-03
                 </div>
                 
 
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-check fa-fw"></i>Update Date:&nbsp;&nbsp;
-                    2024-04-22
+                    2024-09-14
                 </div>
                 
 
                 
                 <div class="info-break-policy">
                     <i class="far fa-file-word fa-fw"></i>Word Count:&nbsp;&nbsp;
-                    488
+                    752
                 </div>
                 
 
                 
                 <div class="info-break-policy">
                     <i class="far fa-clock fa-fw"></i>Read Times:&nbsp;&nbsp;
-                    3 Min
+                    4 Min
                 </div>
                 
 
@@ -333,51 +439,78 @@ normal">
 
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <h3 id="Lecture-3-Editors-vim"><a href="#Lecture-3-Editors-vim" class="headerlink" title="Lecture 3: Editors(vim)"></a>Lecture 3: Editors(vim)</h3><p>link: <a target="_blank" rel="noopener" href="https://missing.csail.mit.edu/2020/editors/">https://missing.csail.mit.edu/2020/editors/</a></p>
-<p>normal-&gt;insert: i</p>
-<p>insert-&gt;normal: <esc></esc></p>
-<p>normal-&gt;replace: R</p>
-<p>nomral-&gt;visual: v</p>
-<p>normal-&gt;visual-line: <s-v></s-v></p>
-<p>noraml-&gt;visual-block: <c-v></c-v></p>
-<p>normal-&gt;command-line: <strong>:</strong></p>
-<pre><code class="lang-bash">:help :w
-</code></pre>
-<blockquote>
-<p>show the usage of ‘:w’</p>
-</blockquote>
-<p>shift + 6(^) : move the cursor to the beginning of the line where is not empty.</p>
-<p>L: move the cursor to the lowest of the screen</p>
-<p>M: middle</p>
-<p>H: highest</p>
-<p>fo: jump the next first o</p>
-<p>Fo: jump to the previous o</p>
-<p>to: jump to before the next first o</p>
-<p>To: jump to after the previous first o</p>
-<p>in nomral mode: c = d + i (c is short for change)</p>
-<p>cc = dd + i</p>
-<p><c-r>: redo</c-r></p>
-<p>undo is undo all the insert change or last change in normal mode</p>
-<p>v: block</p>
-<p>V: rectangle</p>
-<p>ci[ : delete the contents that are inside the brackets and go to the insert mode.</p>
-<p>ca[: delete the contents that are around the brackets and go to the insert mode</p>
-<p>%: jump to the other parentheses</p>
-<p>a: a is short for append</p>
-<p>A: append at the end of this line</p>
-<p>~: change the uppercase and lowercase</p>
-<p>U: return the line to its original state.</p>
-<p><c-g>: show your location in the file and the file status.</c-g></p>
-<p>number + G: return to the line with the number</p>
-<p>To search for the same phrase again, simply type  n .<br>To search for the same phrase in the opposite direction, type  N .<br>To search for a phrase in the backward direction, use  ?  instead of  / .<br>To go back to where you came from press  CTRL-O  (Keep Ctrl down while pressing the letter o).  Repeat to go back further.  CTRL-I goes forward.</p>
-<p>s: x+i</p>
-<p>:s/thee/the: Note that this command only changes the first occurrence of “thee” in the line.</p>
-<p>:s/thee/the/g .  Adding the  g  flag means to substitute globally in the line, change all occurrences of “thee” in the line.</p>
-<p>To substitute new for the first old in a line type    :s/old/new<br>To substitute new for all ‘old’s on a line type       :s/old/new/g<br>To substitute phrases between two line #’s type       :#,#s/old/new/g<br>To substitute all occurrences in the file type        :%s/old/new/g<br> To ask for confirmation each time add ‘c’             :%s/old/new/gc</p>
-<p>Type  :!  followed by an external command to execute that command.</p>
-<p>Now type:   :w TEST   (where TEST is the filename you chose.) This saves the whole file (the Vim Tutor) under the name TEST.</p>
-<p>:!command  executes an external command.<br>Some useful examples are:<br>:!ls            -  shows a directory listing.<br>:!rm FILENAME   -  removes file FILENAME.<br>:w FILENAME  writes the current Vim file to disk with name FILENAME.<br>v  motion  :w FILENAME  saves the Visually selected lines in file FILENAME.<br>:r FILENAME  retrieves disk file FILENAME and puts it below the cursor position.<br>:r !dir  reads the output of the dir command and puts it below the cursor position.</p>
+                <h3 id="Lecture-8-Metaprogramming"><a href="#Lecture-8-Metaprogramming" class="headerlink" title="Lecture 8: Metaprogramming"></a>Lecture 8: Metaprogramming</h3><p><a target="_blank" rel="noopener" href="https://missing.csail.mit.edu/2020/metaprogramming/">https://missing.csail.mit.edu/2020/metaprogramming/</a></p>
+<h4 id="Build-systems"><a href="#Build-systems" class="headerlink" title="Build systems"></a>Build systems</h4><p>make is one of the most common build systems out there, and you will usually find it installed on pretty much any UNIX-based computer. It has its warts, but works quite well for simple-to-moderate projects. When you run make, it consults a file called Makefile in the current directory. All the targets, their dependencies, and the rules are defined in that file. Let’s take a look at one:</p>
+<pre><code class="lang-bash">paper.pdf: paper.tex plot-data.png
+    pdflatex paper.tex
 
+plot-%.png: %.dat plot.py
+    ./plot.py -i $*.dat -o $@
+</code></pre>
+<p>Each directive in this file is a rule for how to produce the left-hand side using the right-hand side. Or, phrased differently, the things named on the right-hand side are dependencies, and the left-hand side is the target. The indented block is a sequence of programs to produce the target from those dependencies. In make, the first directive also defines the default goal. If you run <code>make</code> with no arguments, this is the target it will build. Alternatively, you can run something like <code>make plot-data.png</code>, and it will build that target instead.</p>
+<p>The <code>%</code> in a rule is a “pattern”, and will match the same string on the left and on the right. For example, if the target <code>plot-foo.png</code> is requested, make will look for the dependencies <code>foo.dat</code> and <code>plot.py</code>. Now let’s look at what happens if we run make with an empty source directory.</p>
+<pre><code class="lang-bash">$ make
+make: *** No rule to make target 'paper.tex', needed by 'paper.pdf'.  Stop.
+</code></pre>
+<p><code>make</code> is helpfully telling us that in order to build <code>paper.pdf</code>, it needs <code>paper.tex</code>, and it has no rule telling it how to make that file. Let’s try making it!</p>
+<pre><code class="lang-bash">$ touch paper.tex
+$ make
+make: *** No rule to make target 'plot-data.png', needed by 'paper.pdf'.  Stop.
+</code></pre>
+<p>Hmm, interesting, there is a rule to make <code>plot-data.png</code>, but it is a pattern rule. Since the source files do not exist (<code>data.dat</code>), make simply states that it cannot make that file. Let’s try creating all the files:</p>
+<pre><code class="lang-bash">$ cat paper.tex
+\documentclass{article}
+\usepackage{graphicx}
+\begin{document}
+\includegraphics[scale=0.65]{plot-data.png}
+\end{document}
+$ cat plot.py
+#!/usr/bin/env python
+import matplotlib
+import matplotlib.pyplot as plt
+import numpy as np
+import argparse
+
+parser = argparse.ArgumentParser()
+parser.add_argument('-i', type=argparse.FileType('r'))
+parser.add_argument('-o')
+args = parser.parse_args()
+
+data = np.loadtxt(args.i)
+plt.plot(data[:, 0], data[:, 1])
+plt.savefig(args.o)
+$ cat data.dat
+1 1
+2 2
+3 3
+4 4
+5 8
+</code></pre>
+<p>Now what happens if we run make?</p>
+<pre><code class="lang-bash">$ make
+./plot.py -i data.dat -o plot-data.png
+pdflatex paper.tex
+... lots of output ...
+</code></pre>
+<p>And look, it made a PDF for us! What if we run make again?</p>
+<pre><code class="lang-bash">$ make
+make: 'paper.pdf' is up to date.
+</code></pre>
+<p>It didn’t do anything! Why not? Well, because it didn’t need to. It checked that all of the previously-built targets were still up to date with respect to their listed dependencies. We can test this by modifying paper.tex and then re-running make:</p>
+<pre><code class="lang-bash">$ vim paper.tex
+$ make
+pdflatex paper.tex
+...
+</code></pre>
+<p>Notice that make did not re-run <code>plot.py</code> because that was not necessary; none of <code>plot-data.png</code>’s dependencies changed!</p>
+<h4 id="Dependency-management"><a href="#Dependency-management" class="headerlink" title="Dependency management"></a>Dependency management</h4><p>That also isn’t ideal though! What if I issue a security update which does not change the public interface of my library (its “API”), and which any project that depended on the old version should immediately start using? This is where the different groups of numbers in a version come in. The exact meaning of each one varies between projects, but one relatively common standard is semantic versioning. With semantic versioning, every version number is of the form: major.minor.patch. The rules are:</p>
+<ul>
+<li>If a new release does not change the API, increase the patch version.</li>
+<li>If you add to your API in a backwards-compatible way, increase the minor version.</li>
+<li>If you change the API in a non-backwards-compatible way, increase the major version.</li>
+</ul>
+<p>When working with dependency management systems, you may also come across the notion of lock files. A lock file is simply a file that lists the exact version you are currently depending on of each dependency. Usually, you need to explicitly run an update program to upgrade to newer versions of your dependencies.</p>
+<h4 id="Continuous-integration-systems"><a href="#Continuous-integration-systems" class="headerlink" title="Continuous integration systems"></a>Continuous integration systems</h4>
                 
             </div>
             <hr/>
@@ -403,7 +536,7 @@ normal">
                     </i>
                 </span>
                 <span class="reprint-info">
-                    <a href="http://turingzhi.github.io/2024/04/19/missing-semester-lecture3/">http://turingzhi.github.io/2024/04/19/missing-semester-lecture3/</a>
+                    <a href="http://turingzhi.github.io/2024/09/03/missing-semester/missing-semester-lecture8/">http://turingzhi.github.io/2024/09/03/missing-semester/missing-semester-lecture8/</a>
                 </span>
             </div>
             <div class="reprint__notice">
@@ -440,11 +573,7 @@ normal">
                 <div class="post-meta__tag-list" style="display: inline-block;">
                     
                         <div class="article-tag">
-                            
-                                <a href="/tags/vim/">
-                                    <span class="chip bg-color">vim</span>
-                                </a>
-                            
+                            <span class="chip bg-color">No tag</span>
                         </div>
                     
                 </div>
@@ -489,13 +618,13 @@ normal">
             <div class="article-badge left-badge text-color">
                 <i class="fas fa-chevron-left"></i>&nbsp;Previous</div>
             <div class="card">
-                <a href="/2024/04/21/missing-semester-lecture4/">
+                <a href="/2024/09/14/linuxcommands/frequentlyusedcommands/">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/9.jpg" class="responsive-img" alt="Missing Semester Lecture4: Data Wrangling">
+                        <img src="/medias/featureimages/10.jpg" class="responsive-img" alt="Frequently Used Commands">
                         
-                        <span class="card-title">Missing Semester Lecture4: Data Wrangling</span>
+                        <span class="card-title">Frequently Used Commands</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
@@ -506,14 +635,14 @@ normal">
                     </div>
                     <div class="publish-info">
                         <span class="publish-date">
-                            <i class="far fa-clock fa-fw icon-date"></i>2024-04-21
+                            <i class="far fa-clock fa-fw icon-date"></i>2024-09-14
                         </span>
                         <span class="publish-author">
                             
                             <i class="fas fa-bookmark fa-fw icon-category"></i>
                             
-                            <a href="/categories/missing-semester/" class="post-category">
-                                    missing semester
+                            <a href="/categories/Linux/" class="post-category">
+                                    Linux
                                 </a>
                             
                             
@@ -523,8 +652,8 @@ normal">
                 
                 <div class="card-action article-tags">
                     
-                    <a href="/tags/shell/">
-                        <span class="chip bg-color">shell</span>
+                    <a href="/tags/Linux-Command/">
+                        <span class="chip bg-color">Linux Command</span>
                     </a>
                     
                 </div>
@@ -538,13 +667,13 @@ normal">
                 Next&nbsp;<i class="fas fa-chevron-right"></i>
             </div>
             <div class="card">
-                <a href="/2024/04/15/missing-semester-lecture2/">
+                <a href="/2024/08/16/tutorial-for-starters/">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/17.jpg" class="responsive-img" alt="Missing Semester Lecture2: Shell Tools and Scripting">
+                        <img src="/medias/featureimages/18.jpg" class="responsive-img" alt="Tutorial for Starters for Coders on Mac">
                         
-                        <span class="card-title">Missing Semester Lecture2: Shell Tools and Scripting</span>
+                        <span class="card-title">Tutorial for Starters for Coders on Mac</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
@@ -555,14 +684,14 @@ normal">
                     </div>
                     <div class="publish-info">
                             <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2024-04-15
+                                <i class="far fa-clock fa-fw icon-date"></i>2024-08-16
                             </span>
                         <span class="publish-author">
                             
                             <i class="fas fa-bookmark fa-fw icon-category"></i>
                             
-                            <a href="/categories/missing-semester/" class="post-category">
-                                    missing semester
+                            <a href="/categories/tutorial/" class="post-category">
+                                    tutorial
                                 </a>
                             
                             
@@ -572,8 +701,16 @@ normal">
                 
                 <div class="card-action article-tags">
                     
-                    <a href="/tags/shell/">
-                        <span class="chip bg-color">shell</span>
+                    <a href="/tags/tutorial/">
+                        <span class="chip bg-color">tutorial</span>
+                    </a>
+                    
+                    <a href="/tags/mac/">
+                        <span class="chip bg-color">mac</span>
+                    </a>
+                    
+                    <a href="/tags/starter/">
+                        <span class="chip bg-color">starter</span>
                     </a>
                     
                 </div>
@@ -734,6 +871,13 @@ normal">
 
 </main>
 
+
+<script src="https://cdn.bootcss.com/mathjax/2.7.5/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+<script>
+    MathJax.Hub.Config({
+        tex2jax: {inlineMath: [['$', '$'], ['\\(', '\\)']]}
+    });
+</script>
 
 
 

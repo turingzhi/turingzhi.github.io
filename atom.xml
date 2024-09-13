@@ -6,7 +6,7 @@
   <link href="http://turingzhi.github.io/atom.xml" rel="self"/>
   
   <link href="http://turingzhi.github.io/"/>
-  <updated>2024-08-16T14:56:42.017Z</updated>
+  <updated>2024-09-13T22:47:51.119Z</updated>
   <id>http://turingzhi.github.io/</id>
   
   <author>
@@ -15,6 +15,54 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Frequently Used Commands</title>
+    <link href="http://turingzhi.github.io/2024/09/14/linuxcommands/frequentlyusedcommands/"/>
+    <id>http://turingzhi.github.io/2024/09/14/linuxcommands/frequentlyusedcommands/</id>
+    <published>2024-09-13T22:45:26.000Z</published>
+    <updated>2024-09-13T22:47:51.119Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h3 id=&quot;some-frequently-used-commands&quot;&gt;&lt;a href=&quot;#some-frequently-used-commands&quot; class=&quot;headerlink&quot; title=&quot;some frequently used</summary>
+        
+      
+    
+    
+    
+    <category term="Linux" scheme="http://turingzhi.github.io/categories/Linux/"/>
+    
+    
+    <category term="Linux Command" scheme="http://turingzhi.github.io/tags/Linux-Command/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Missing Semester Lecture 8</title>
+    <link href="http://turingzhi.github.io/2024/09/03/missing-semester/missing-semester-lecture8/"/>
+    <id>http://turingzhi.github.io/2024/09/03/missing-semester/missing-semester-lecture8/</id>
+    <published>2024-09-03T19:06:21.000Z</published>
+    <updated>2024-09-13T22:48:06.295Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h3 id=&quot;Lecture-8-Metaprogramming&quot;&gt;&lt;a href=&quot;#Lecture-8-Metaprogramming&quot; class=&quot;headerlink&quot; title=&quot;Lecture 8: Metaprogramming&quot;&gt;&lt;/a&gt;Lecture</summary>
+        
+      
+    
+    
+    
+    <category term="missing semester" scheme="http://turingzhi.github.io/categories/missing-semester/"/>
+    
+    
+  </entry>
   
   <entry>
     <title>Tutorial for Starters for Coders on Mac</title>
