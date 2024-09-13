@@ -4,11 +4,14 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="keywords" content="Missing Semester Lecture3: Editor(vim), Hexo">
-    <meta name="description" content="Lecture 3: Editors(vim)link: https://missing.csail.mit.edu/2020/editors/
-normal-&amp;gt;insert: i
-insert-&amp;gt;normal: 
-normal">
+    <meta name="keywords" content="Missing Semester Lecture1: Course Overview + The Shell, Hexo">
+    <meta name="description" content="Lecture 1: Course Overview + The Shellhttps://missing.csail.mit.edu/2020/course-shell/
+mv a.md b.md
+
+
+rename the file
+
+m">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
     <meta name="renderer" content="webkit|ie-stand|ie-comp">
@@ -20,7 +23,7 @@ normal">
     <!-- Global site tag (gtag.js) - Google Analytics -->
 
 
-    <title>Missing Semester Lecture3: Editor(vim) | Hexo</title>
+    <title>Missing Semester Lecture1: Course Overview + The Shell | Hexo</title>
     <link rel="icon" type="image/png" href="/favicon.png">
     
 
@@ -235,12 +238,12 @@ normal">
 
 
 
-<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/23.jpg')">
+<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/21.jpg')">
     <div class="container" style="right: 0px;left: 0px;">
         <div class="row">
             <div class="col s12 m12 l12">
                 <div class="brand">
-                    <h1 class="description center-align post-title">Missing Semester Lecture3: Editor(vim)</h1>
+                    <h1 class="description center-align post-title">Missing Semester Lecture1: Course Overview + The Shell</h1>
                 </div>
             </div>
         </div>
@@ -264,8 +267,8 @@ normal">
                     
                     <div class="article-tag">
                         
-                            <a href="/tags/vim/">
-                                <span class="chip bg-color">vim</span>
+                            <a href="/tags/shell/">
+                                <span class="chip bg-color">shell</span>
                             </a>
                         
                     </div>
@@ -289,28 +292,28 @@ normal">
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-minus fa-fw"></i>Publish Date:&nbsp;&nbsp;
-                    2024-04-19
+                    2024-04-15
                 </div>
                 
 
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-check fa-fw"></i>Update Date:&nbsp;&nbsp;
-                    2024-04-22
+                    2024-04-21
                 </div>
                 
 
                 
                 <div class="info-break-policy">
                     <i class="far fa-file-word fa-fw"></i>Word Count:&nbsp;&nbsp;
-                    488
+                    117
                 </div>
                 
 
                 
                 <div class="info-break-policy">
                     <i class="far fa-clock fa-fw"></i>Read Times:&nbsp;&nbsp;
-                    3 Min
+                    1 Min
                 </div>
                 
 
@@ -333,50 +336,59 @@ normal">
 
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <h3 id="Lecture-3-Editors-vim"><a href="#Lecture-3-Editors-vim" class="headerlink" title="Lecture 3: Editors(vim)"></a>Lecture 3: Editors(vim)</h3><p>link: <a target="_blank" rel="noopener" href="https://missing.csail.mit.edu/2020/editors/">https://missing.csail.mit.edu/2020/editors/</a></p>
-<p>normal-&gt;insert: i</p>
-<p>insert-&gt;normal: <esc></esc></p>
-<p>normal-&gt;replace: R</p>
-<p>nomral-&gt;visual: v</p>
-<p>normal-&gt;visual-line: <s-v></s-v></p>
-<p>noraml-&gt;visual-block: <c-v></c-v></p>
-<p>normal-&gt;command-line: <strong>:</strong></p>
-<pre><code class="lang-bash">:help :w
+                <h3 id="Lecture-1-Course-Overview-The-Shell"><a href="#Lecture-1-Course-Overview-The-Shell" class="headerlink" title="Lecture 1: Course Overview + The Shell"></a>Lecture 1: Course Overview + The Shell</h3><p><a target="_blank" rel="noopener" href="https://missing.csail.mit.edu/2020/course-shell/">https://missing.csail.mit.edu/2020/course-shell/</a></p>
+<pre><code class="lang-bash">mv a.md b.md
 </code></pre>
 <blockquote>
-<p>show the usage of ‘:w’</p>
+<p>rename the file</p>
 </blockquote>
-<p>shift + 6(^) : move the cursor to the beginning of the line where is not empty.</p>
-<p>L: move the cursor to the lowest of the screen</p>
-<p>M: middle</p>
-<p>H: highest</p>
-<p>fo: jump the next first o</p>
-<p>Fo: jump to the previous o</p>
-<p>to: jump to before the next first o</p>
-<p>To: jump to after the previous first o</p>
-<p>in nomral mode: c = d + i (c is short for change)</p>
-<p>cc = dd + i</p>
-<p><c-r>: redo</c-r></p>
-<p>undo is undo all the insert change or last change in normal mode</p>
-<p>v: block</p>
-<p>V: rectangle</p>
-<p>ci[ : delete the contents that are inside the brackets and go to the insert mode.</p>
-<p>ca[: delete the contents that are around the brackets and go to the insert mode</p>
-<p>%: jump to the other parentheses</p>
-<p>a: a is short for append</p>
-<p>A: append at the end of this line</p>
-<p>~: change the uppercase and lowercase</p>
-<p>U: return the line to its original state.</p>
-<p><c-g>: show your location in the file and the file status.</c-g></p>
-<p>number + G: return to the line with the number</p>
-<p>To search for the same phrase again, simply type  n .<br>To search for the same phrase in the opposite direction, type  N .<br>To search for a phrase in the backward direction, use  ?  instead of  / .<br>To go back to where you came from press  CTRL-O  (Keep Ctrl down while pressing the letter o).  Repeat to go back further.  CTRL-I goes forward.</p>
-<p>s: x+i</p>
-<p>:s/thee/the: Note that this command only changes the first occurrence of “thee” in the line.</p>
-<p>:s/thee/the/g .  Adding the  g  flag means to substitute globally in the line, change all occurrences of “thee” in the line.</p>
-<p>To substitute new for the first old in a line type    :s/old/new<br>To substitute new for all ‘old’s on a line type       :s/old/new/g<br>To substitute phrases between two line #’s type       :#,#s/old/new/g<br>To substitute all occurrences in the file type        :%s/old/new/g<br> To ask for confirmation each time add ‘c’             :%s/old/new/gc</p>
-<p>Type  :!  followed by an external command to execute that command.</p>
-<p>Now type:   :w TEST   (where TEST is the filename you chose.) This saves the whole file (the Vim Tutor) under the name TEST.</p>
-<p>:!command  executes an external command.<br>Some useful examples are:<br>:!ls            -  shows a directory listing.<br>:!rm FILENAME   -  removes file FILENAME.<br>:w FILENAME  writes the current Vim file to disk with name FILENAME.<br>v  motion  :w FILENAME  saves the Visually selected lines in file FILENAME.<br>:r FILENAME  retrieves disk file FILENAME and puts it below the cursor position.<br>:r !dir  reads the output of the dir command and puts it below the cursor position.</p>
+<pre><code class="lang-bash">mv a.md ../b.md
+</code></pre>
+<blockquote>
+<p>move the file</p>
+</blockquote>
+<pre><code class="lang-bash">rm dir1
+</code></pre>
+<blockquote>
+<p>delete all items recursive</p>
+</blockquote>
+<pre><code class="lang-bash">rmdir dir1
+</code></pre>
+<blockquote>
+<p>delete dir only empty</p>
+</blockquote>
+<pre><code class="lang-bash">ls ..
+</code></pre>
+<blockquote>
+<p>list all files of the father dir</p>
+</blockquote>
+<p>shortcut: <code>Control + L</code></p>
+<blockquote>
+<p>same as command clear</p>
+</blockquote>
+<pre><code class="lang-bash">cat &lt; hello.txt &gt; hello2.txt
+</code></pre>
+<blockquote>
+<p>replace hello2.txt with the content of hello.txt</p>
+</blockquote>
+<pre><code class="lang-bash">cat &lt; hello.txt &gt;&gt; hello2.txt
+</code></pre>
+<blockquote>
+<p>append the content of hello.txt to hello2.txt as an appendix</p>
+</blockquote>
+<ul>
+<li><strong>Pipe</strong></li>
+</ul>
+<pre><code class="lang-bash">ls - l | tail -n1
+</code></pre>
+<blockquote>
+<p>get last info of (ls -l)</p>
+</blockquote>
+<pre><code class="lang-bash">curl --head --silent google.com | grep -i content-length
+</code></pre>
+<blockquote>
+<p>output is ‘Content-Length:219’</p>
+</blockquote>
 
                 
             </div>
@@ -403,7 +415,7 @@ normal">
                     </i>
                 </span>
                 <span class="reprint-info">
-                    <a href="http://turingzhi.github.io/2024/04/19/missing-semester-lecture3/">http://turingzhi.github.io/2024/04/19/missing-semester-lecture3/</a>
+                    <a href="http://turingzhi.github.io/2024/04/15/missing-semester/missing-semester-lecture1/">http://turingzhi.github.io/2024/04/15/missing-semester/missing-semester-lecture1/</a>
                 </span>
             </div>
             <div class="reprint__notice">
@@ -441,8 +453,8 @@ normal">
                     
                         <div class="article-tag">
                             
-                                <a href="/tags/vim/">
-                                    <span class="chip bg-color">vim</span>
+                                <a href="/tags/shell/">
+                                    <span class="chip bg-color">shell</span>
                                 </a>
                             
                         </div>
@@ -489,13 +501,13 @@ normal">
             <div class="article-badge left-badge text-color">
                 <i class="fas fa-chevron-left"></i>&nbsp;Previous</div>
             <div class="card">
-                <a href="/2024/04/21/missing-semester-lecture4/">
+                <a href="/2024/04/15/missing-semester/missing-semester-lecture2/">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/9.jpg" class="responsive-img" alt="Missing Semester Lecture4: Data Wrangling">
+                        <img src="/medias/featureimages/17.jpg" class="responsive-img" alt="Missing Semester Lecture2: Shell Tools and Scripting">
                         
-                        <span class="card-title">Missing Semester Lecture4: Data Wrangling</span>
+                        <span class="card-title">Missing Semester Lecture2: Shell Tools and Scripting</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
@@ -506,7 +518,7 @@ normal">
                     </div>
                     <div class="publish-info">
                         <span class="publish-date">
-                            <i class="far fa-clock fa-fw icon-date"></i>2024-04-21
+                            <i class="far fa-clock fa-fw icon-date"></i>2024-04-15
                         </span>
                         <span class="publish-author">
                             
@@ -538,13 +550,13 @@ normal">
                 Next&nbsp;<i class="fas fa-chevron-right"></i>
             </div>
             <div class="card">
-                <a href="/2024/04/15/missing-semester-lecture2/">
+                <a href="/2024/04/15/hello-world/">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/17.jpg" class="responsive-img" alt="Missing Semester Lecture2: Shell Tools and Scripting">
+                        <img src="/medias/featureimages/12.jpg" class="responsive-img" alt="Hello World">
                         
-                        <span class="card-title">Missing Semester Lecture2: Shell Tools and Scripting</span>
+                        <span class="card-title">Hello World</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
@@ -559,12 +571,8 @@ normal">
                             </span>
                         <span class="publish-author">
                             
-                            <i class="fas fa-bookmark fa-fw icon-category"></i>
-                            
-                            <a href="/categories/missing-semester/" class="post-category">
-                                    missing semester
-                                </a>
-                            
+                            <i class="fas fa-user fa-fw"></i>
+                            Turingzhi
                             
                         </span>
                     </div>
@@ -572,8 +580,8 @@ normal">
                 
                 <div class="card-action article-tags">
                     
-                    <a href="/tags/shell/">
-                        <span class="chip bg-color">shell</span>
+                    <a href="/tags/hexo/">
+                        <span class="chip bg-color">hexo</span>
                     </a>
                     
                 </div>

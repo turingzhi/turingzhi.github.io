@@ -4,10 +4,11 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="keywords" content="Missing Semester Lecture4: Data Wrangling, Hexo">
-    <meta name="description" content="Lecture 4: Data Wranglinglink:https://missing.csail.mit.edu/2020/data-wrangling/
-sed is short for stream editor
-| sed -E">
+    <meta name="keywords" content="Missing Semester Lecture3: Editor(vim), Hexo">
+    <meta name="description" content="Lecture 3: Editors(vim)link: https://missing.csail.mit.edu/2020/editors/
+normal-&amp;gt;insert: i
+insert-&amp;gt;normal: 
+normal">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
     <meta name="renderer" content="webkit|ie-stand|ie-comp">
@@ -19,7 +20,7 @@ sed is short for stream editor
     <!-- Global site tag (gtag.js) - Google Analytics -->
 
 
-    <title>Missing Semester Lecture4: Data Wrangling | Hexo</title>
+    <title>Missing Semester Lecture3: Editor(vim) | Hexo</title>
     <link rel="icon" type="image/png" href="/favicon.png">
     
 
@@ -234,12 +235,12 @@ sed is short for stream editor
 
 
 
-<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/9.jpg')">
+<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/23.jpg')">
     <div class="container" style="right: 0px;left: 0px;">
         <div class="row">
             <div class="col s12 m12 l12">
                 <div class="brand">
-                    <h1 class="description center-align post-title">Missing Semester Lecture4: Data Wrangling</h1>
+                    <h1 class="description center-align post-title">Missing Semester Lecture3: Editor(vim)</h1>
                 </div>
             </div>
         </div>
@@ -263,8 +264,8 @@ sed is short for stream editor
                     
                     <div class="article-tag">
                         
-                            <a href="/tags/shell/">
-                                <span class="chip bg-color">shell</span>
+                            <a href="/tags/vim/">
+                                <span class="chip bg-color">vim</span>
                             </a>
                         
                     </div>
@@ -288,7 +289,7 @@ sed is short for stream editor
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-minus fa-fw"></i>Publish Date:&nbsp;&nbsp;
-                    2024-04-21
+                    2024-04-19
                 </div>
                 
 
@@ -302,14 +303,14 @@ sed is short for stream editor
                 
                 <div class="info-break-policy">
                     <i class="far fa-file-word fa-fw"></i>Word Count:&nbsp;&nbsp;
-                    96
+                    488
                 </div>
                 
 
                 
                 <div class="info-break-policy">
                     <i class="far fa-clock fa-fw"></i>Read Times:&nbsp;&nbsp;
-                    1 Min
+                    3 Min
                 </div>
                 
 
@@ -332,26 +333,50 @@ sed is short for stream editor
 
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <h3 id="Lecture-4-Data-Wrangling"><a href="#Lecture-4-Data-Wrangling" class="headerlink" title="Lecture 4: Data Wrangling"></a>Lecture 4: Data Wrangling</h3><p>link:<a target="_blank" rel="noopener" href="https://missing.csail.mit.edu/2020/data-wrangling/">https://missing.csail.mit.edu/2020/data-wrangling/</a></p>
-<p>sed is short for stream editor</p>
-<pre><code class="lang-bash">| sed -E 's/.*Disconnected from (invalid |authenticating )?user (.*) [^ ]+ port [0-9]+( \[preauth\])?$/\2/'
+                <h3 id="Lecture-3-Editors-vim"><a href="#Lecture-3-Editors-vim" class="headerlink" title="Lecture 3: Editors(vim)"></a>Lecture 3: Editors(vim)</h3><p>link: <a target="_blank" rel="noopener" href="https://missing.csail.mit.edu/2020/editors/">https://missing.csail.mit.edu/2020/editors/</a></p>
+<p>normal-&gt;insert: i</p>
+<p>insert-&gt;normal: <esc></esc></p>
+<p>normal-&gt;replace: R</p>
+<p>nomral-&gt;visual: v</p>
+<p>normal-&gt;visual-line: <s-v></s-v></p>
+<p>noraml-&gt;visual-block: <c-v></c-v></p>
+<p>normal-&gt;command-line: <strong>:</strong></p>
+<pre><code class="lang-bash">:help :w
 </code></pre>
-<pre><code class="lang-bash">ssh myserver journalctl
- | grep sshd
- | grep "Disconnected from"
- | sed -E 's/.*Disconnected from (invalid |authenticating )?user (.*) [^ ]+ port [0-9]+( \[preauth\])?$/\2/'
- | sort | uniq -c
- | sort -nk1,1 | tail -n10
- | awk '{print $2}' | paste -sd,
-</code></pre>
-<pre><code class="lang-bash">| awk '$1 == 1 &amp;&amp; $2 ~ /^c[^ ]*e$/ { print $2 }' | wc -l
-</code></pre>
-<pre><code class="lang-bash">BEGIN { rows = 0 }
-$1 == 1 &amp;&amp; $2 ~ /^c[^ ]*e$/ { rows += $1 }
-END { print rows }
-</code></pre>
-<pre><code class="lang-bash"> | paste -sd+ | bc -l
-</code></pre>
+<blockquote>
+<p>show the usage of ‘:w’</p>
+</blockquote>
+<p>shift + 6(^) : move the cursor to the beginning of the line where is not empty.</p>
+<p>L: move the cursor to the lowest of the screen</p>
+<p>M: middle</p>
+<p>H: highest</p>
+<p>fo: jump the next first o</p>
+<p>Fo: jump to the previous o</p>
+<p>to: jump to before the next first o</p>
+<p>To: jump to after the previous first o</p>
+<p>in nomral mode: c = d + i (c is short for change)</p>
+<p>cc = dd + i</p>
+<p><c-r>: redo</c-r></p>
+<p>undo is undo all the insert change or last change in normal mode</p>
+<p>v: block</p>
+<p>V: rectangle</p>
+<p>ci[ : delete the contents that are inside the brackets and go to the insert mode.</p>
+<p>ca[: delete the contents that are around the brackets and go to the insert mode</p>
+<p>%: jump to the other parentheses</p>
+<p>a: a is short for append</p>
+<p>A: append at the end of this line</p>
+<p>~: change the uppercase and lowercase</p>
+<p>U: return the line to its original state.</p>
+<p><c-g>: show your location in the file and the file status.</c-g></p>
+<p>number + G: return to the line with the number</p>
+<p>To search for the same phrase again, simply type  n .<br>To search for the same phrase in the opposite direction, type  N .<br>To search for a phrase in the backward direction, use  ?  instead of  / .<br>To go back to where you came from press  CTRL-O  (Keep Ctrl down while pressing the letter o).  Repeat to go back further.  CTRL-I goes forward.</p>
+<p>s: x+i</p>
+<p>:s/thee/the: Note that this command only changes the first occurrence of “thee” in the line.</p>
+<p>:s/thee/the/g .  Adding the  g  flag means to substitute globally in the line, change all occurrences of “thee” in the line.</p>
+<p>To substitute new for the first old in a line type    :s/old/new<br>To substitute new for all ‘old’s on a line type       :s/old/new/g<br>To substitute phrases between two line #’s type       :#,#s/old/new/g<br>To substitute all occurrences in the file type        :%s/old/new/g<br> To ask for confirmation each time add ‘c’             :%s/old/new/gc</p>
+<p>Type  :!  followed by an external command to execute that command.</p>
+<p>Now type:   :w TEST   (where TEST is the filename you chose.) This saves the whole file (the Vim Tutor) under the name TEST.</p>
+<p>:!command  executes an external command.<br>Some useful examples are:<br>:!ls            -  shows a directory listing.<br>:!rm FILENAME   -  removes file FILENAME.<br>:w FILENAME  writes the current Vim file to disk with name FILENAME.<br>v  motion  :w FILENAME  saves the Visually selected lines in file FILENAME.<br>:r FILENAME  retrieves disk file FILENAME and puts it below the cursor position.<br>:r !dir  reads the output of the dir command and puts it below the cursor position.</p>
 
                 
             </div>
@@ -378,7 +403,7 @@ END { print rows }
                     </i>
                 </span>
                 <span class="reprint-info">
-                    <a href="http://turingzhi.github.io/2024/04/21/missing-semester-lecture4/">http://turingzhi.github.io/2024/04/21/missing-semester-lecture4/</a>
+                    <a href="http://turingzhi.github.io/2024/04/19/missing-semester/missing-semester-lecture3/">http://turingzhi.github.io/2024/04/19/missing-semester/missing-semester-lecture3/</a>
                 </span>
             </div>
             <div class="reprint__notice">
@@ -416,8 +441,8 @@ END { print rows }
                     
                         <div class="article-tag">
                             
-                                <a href="/tags/shell/">
-                                    <span class="chip bg-color">shell</span>
+                                <a href="/tags/vim/">
+                                    <span class="chip bg-color">vim</span>
                                 </a>
                             
                         </div>
@@ -464,13 +489,13 @@ END { print rows }
             <div class="article-badge left-badge text-color">
                 <i class="fas fa-chevron-left"></i>&nbsp;Previous</div>
             <div class="card">
-                <a href="/2024/04/22/missing-semester-lecture5/">
+                <a href="/2024/04/21/missing-semester/missing-semester-lecture4/">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/12.jpg" class="responsive-img" alt="Missing Semester Lecture5: Command-line Environment">
+                        <img src="/medias/featureimages/9.jpg" class="responsive-img" alt="Missing Semester Lecture4: Data Wrangling">
                         
-                        <span class="card-title">Missing Semester Lecture5: Command-line Environment</span>
+                        <span class="card-title">Missing Semester Lecture4: Data Wrangling</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
@@ -481,7 +506,7 @@ END { print rows }
                     </div>
                     <div class="publish-info">
                         <span class="publish-date">
-                            <i class="far fa-clock fa-fw icon-date"></i>2024-04-22
+                            <i class="far fa-clock fa-fw icon-date"></i>2024-04-21
                         </span>
                         <span class="publish-author">
                             
@@ -498,8 +523,8 @@ END { print rows }
                 
                 <div class="card-action article-tags">
                     
-                    <a href="/tags/tmux/">
-                        <span class="chip bg-color">tmux</span>
+                    <a href="/tags/shell/">
+                        <span class="chip bg-color">shell</span>
                     </a>
                     
                 </div>
@@ -513,13 +538,13 @@ END { print rows }
                 Next&nbsp;<i class="fas fa-chevron-right"></i>
             </div>
             <div class="card">
-                <a href="/2024/04/19/missing-semester-lecture3/">
+                <a href="/2024/04/15/missing-semester/missing-semester-lecture2/">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/23.jpg" class="responsive-img" alt="Missing Semester Lecture3: Editor(vim)">
+                        <img src="/medias/featureimages/17.jpg" class="responsive-img" alt="Missing Semester Lecture2: Shell Tools and Scripting">
                         
-                        <span class="card-title">Missing Semester Lecture3: Editor(vim)</span>
+                        <span class="card-title">Missing Semester Lecture2: Shell Tools and Scripting</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
@@ -530,7 +555,7 @@ END { print rows }
                     </div>
                     <div class="publish-info">
                             <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2024-04-19
+                                <i class="far fa-clock fa-fw icon-date"></i>2024-04-15
                             </span>
                         <span class="publish-author">
                             
@@ -547,8 +572,8 @@ END { print rows }
                 
                 <div class="card-action article-tags">
                     
-                    <a href="/tags/vim/">
-                        <span class="chip bg-color">vim</span>
+                    <a href="/tags/shell/">
+                        <span class="chip bg-color">shell</span>
                     </a>
                     
                 </div>
