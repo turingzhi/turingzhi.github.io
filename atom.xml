@@ -6,7 +6,7 @@
   <link href="http://turingzhi.github.io/atom.xml" rel="self"/>
   
   <link href="http://turingzhi.github.io/"/>
-  <updated>2024-09-13T22:53:00.677Z</updated>
+  <updated>2024-11-07T23:20:23.615Z</updated>
   <id>http://turingzhi.github.io/</id>
   
   <author>
@@ -15,6 +15,27 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Security and Cryptography</title>
+    <link href="http://turingzhi.github.io/2024/11/07/missing-semester/missing-semester-lecture9/"/>
+    <id>http://turingzhi.github.io/2024/11/07/missing-semester/missing-semester-lecture9/</id>
+    <published>2024-11-07T22:27:18.000Z</published>
+    <updated>2024-11-07T23:20:23.615Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h3 id=&quot;Security-and-Cryptography&quot;&gt;&lt;a href=&quot;#Security-and-Cryptography&quot; class=&quot;headerlink&quot; title=&quot;Security and Cryptography&quot;&gt;&lt;/a&gt;Security</summary>
+        
+      
+    
+    
+    
+    
+  </entry>
   
   <entry>
     <title>Frequently Used Commands</title>
@@ -42,11 +63,11 @@
   </entry>
   
   <entry>
-    <title>Missing Semester Lecture 8</title>
+    <title>Missing Semester Lecture 8: Metaprogramming</title>
     <link href="http://turingzhi.github.io/2024/09/03/missing-semester/missing-semester-lecture8/"/>
     <id>http://turingzhi.github.io/2024/09/03/missing-semester/missing-semester-lecture8/</id>
     <published>2024-09-03T19:06:21.000Z</published>
-    <updated>2024-09-13T22:54:15.182Z</updated>
+    <updated>2024-11-24T12:36:44.593Z</updated>
     
     
       
@@ -99,6 +120,31 @@
     <title>Algorithms for Massive Datasets</title>
     <link href="http://turingzhi.github.io/2024/08/15/algorithms-for-massive-datasets/"/>
     <id>http://turingzhi.github.io/2024/08/15/algorithms-for-massive-datasets/</id>
+    <published>2024-08-15T13:13:00.000Z</published>
+    <updated>2024-08-16T14:46:13.410Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;1-Hashing-Integer-Data-Structures-I&quot;&gt;&lt;a href=&quot;#1-Hashing-Integer-Data-Structures-I&quot; class=&quot;headerlink&quot; title=&quot;1.Hashing(Integer</summary>
+        
+      
+    
+    
+    
+    <category term="algorithm" scheme="http://turingzhi.github.io/categories/algorithm/"/>
+    
+    
+    <category term="algorithm" scheme="http://turingzhi.github.io/tags/algorithm/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Algorithms for Massive Datasets</title>
+    <link href="http://turingzhi.github.io/2024/08/15/algorithms-for-massive-datasets/algorithms-for-massive-datasets/"/>
+    <id>http://turingzhi.github.io/2024/08/15/algorithms-for-massive-datasets/algorithms-for-massive-datasets/</id>
     <published>2024-08-15T13:13:00.000Z</published>
     <updated>2024-08-16T14:46:13.410Z</updated>
     
