@@ -6,7 +6,7 @@
   <link href="http://turingzhi.github.io/atom.xml" rel="self"/>
   
   <link href="http://turingzhi.github.io/"/>
-  <updated>2024-11-24T12:41:03.507Z</updated>
+  <updated>2024-12-19T20:00:27.209Z</updated>
   <id>http://turingzhi.github.io/</id>
   
   <author>
@@ -17,11 +17,61 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>Missing Semester Lecture11: Q&amp;A</title>
+    <link href="http://turingzhi.github.io/2024/12/19/missing-semester/missing-semester-lecture11/"/>
+    <id>http://turingzhi.github.io/2024/12/19/missing-semester/missing-semester-lecture11/</id>
+    <published>2024-12-19T19:59:15.000Z</published>
+    <updated>2024-12-19T20:00:27.209Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;Any-recommendations-on-learning-Operating-Systems-related-topics-like-processes-virtual-memory-interrupts-memory-management-etc&quot;&gt;&lt;a</summary>
+        
+      
+    
+    
+    
+    <category term="Missing Semester" scheme="http://turingzhi.github.io/categories/Missing-Semester/"/>
+    
+    
+    <category term="Q&amp;A" scheme="http://turingzhi.github.io/tags/Q-A/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Missing Semester Lecture10: Potpourri</title>
+    <link href="http://turingzhi.github.io/2024/12/19/missing-semester/missing-semester-lecture10/"/>
+    <id>http://turingzhi.github.io/2024/12/19/missing-semester/missing-semester-lecture10/</id>
+    <published>2024-12-19T19:03:48.000Z</published>
+    <updated>2024-12-19T19:58:57.839Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;Keyboard-remapping&quot;&gt;&lt;a href=&quot;#Keyboard-remapping&quot; class=&quot;headerlink&quot; title=&quot;Keyboard remapping&quot;&gt;&lt;/a&gt;Keyboard remapping&lt;/h2&gt;&lt;p&gt;As a</summary>
+        
+      
+    
+    
+    
+    <category term="Missing Semester" scheme="http://turingzhi.github.io/categories/Missing-Semester/"/>
+    
+    
+    <category term="Potpourri" scheme="http://turingzhi.github.io/tags/Potpourri/"/>
+    
+  </entry>
+  
+  <entry>
     <title>Missing Semester Lecture9: Security and Cryptography</title>
     <link href="http://turingzhi.github.io/2024/11/07/missing-semester/missing-semester-lecture9/"/>
     <id>http://turingzhi.github.io/2024/11/07/missing-semester/missing-semester-lecture9/</id>
     <published>2024-11-07T22:27:18.000Z</published>
-    <updated>2024-11-24T12:41:03.507Z</updated>
+    <updated>2024-12-19T19:58:48.404Z</updated>
     
     
       
@@ -34,6 +84,12 @@
     
     
     
+    <category term="Missing Semester" scheme="http://turingzhi.github.io/categories/Missing-Semester/"/>
+    
+    
+    <category term="Security" scheme="http://turingzhi.github.io/tags/Security/"/>
+    
+    <category term="Cryptography" scheme="http://turingzhi.github.io/tags/Cryptography/"/>
     
   </entry>
   
@@ -63,11 +119,11 @@
   </entry>
   
   <entry>
-    <title>Missing Semester Lecture 8: Metaprogramming</title>
+    <title>Missing Semester Lecture8: Metaprogramming</title>
     <link href="http://turingzhi.github.io/2024/09/03/missing-semester/missing-semester-lecture8/"/>
     <id>http://turingzhi.github.io/2024/09/03/missing-semester/missing-semester-lecture8/</id>
     <published>2024-09-03T19:06:21.000Z</published>
-    <updated>2024-11-24T12:36:44.593Z</updated>
+    <updated>2024-12-19T19:57:45.072Z</updated>
     
     
       
