@@ -6,7 +6,7 @@
   <link href="http://turingzhi.github.io/atom.xml" rel="self"/>
   
   <link href="http://turingzhi.github.io/"/>
-  <updated>2024-12-23T22:00:34.673Z</updated>
+  <updated>2024-12-23T22:07:13.340Z</updated>
   <id>http://turingzhi.github.io/</id>
   
   <author>
@@ -20,8 +20,8 @@
     <title>Higher-order Function</title>
     <link href="http://turingzhi.github.io/2024/12/23/cs61a/higher-order-function/"/>
     <id>http://turingzhi.github.io/2024/12/23/cs61a/higher-order-function/</id>
-    <published>2024-12-23T02:57:47.000Z</published>
-    <updated>2024-12-23T22:00:34.673Z</updated>
+    <published>2024-12-23T04:57:47.000Z</published>
+    <updated>2024-12-23T22:07:13.340Z</updated>
     
     
       
@@ -47,7 +47,7 @@
     <title>Missing Semester Lecture11: Q&amp;A</title>
     <link href="http://turingzhi.github.io/2024/12/19/missing-semester/missing-semester-lecture11/"/>
     <id>http://turingzhi.github.io/2024/12/19/missing-semester/missing-semester-lecture11/</id>
-    <published>2024-12-19T19:59:15.000Z</published>
+    <published>2024-12-19T21:59:15.000Z</published>
     <updated>2024-12-22T00:43:50.676Z</updated>
     
     
@@ -72,7 +72,7 @@
     <title>Missing Semester Lecture10: Potpourri</title>
     <link href="http://turingzhi.github.io/2024/12/19/missing-semester/missing-semester-lecture10/"/>
     <id>http://turingzhi.github.io/2024/12/19/missing-semester/missing-semester-lecture10/</id>
-    <published>2024-12-19T19:03:48.000Z</published>
+    <published>2024-12-19T21:03:48.000Z</published>
     <updated>2024-12-22T00:42:31.163Z</updated>
     
     
@@ -95,9 +95,9 @@
   
   <entry>
     <title>Missing Semester Lecture9: Security and Cryptography</title>
-    <link href="http://turingzhi.github.io/2024/11/07/missing-semester/missing-semester-lecture9/"/>
-    <id>http://turingzhi.github.io/2024/11/07/missing-semester/missing-semester-lecture9/</id>
-    <published>2024-11-07T22:27:18.000Z</published>
+    <link href="http://turingzhi.github.io/2024/11/08/missing-semester/missing-semester-lecture9/"/>
+    <id>http://turingzhi.github.io/2024/11/08/missing-semester/missing-semester-lecture9/</id>
+    <published>2024-11-08T00:27:18.000Z</published>
     <updated>2024-12-22T00:45:10.853Z</updated>
     
     
@@ -124,7 +124,7 @@
     <title>Frequently Used Commands</title>
     <link href="http://turingzhi.github.io/2024/09/14/linuxcommands/frequentlyusedcommands/"/>
     <id>http://turingzhi.github.io/2024/09/14/linuxcommands/frequentlyusedcommands/</id>
-    <published>2024-09-13T22:45:26.000Z</published>
+    <published>2024-09-14T01:45:26.000Z</published>
     <updated>2024-09-13T22:53:00.677Z</updated>
     
     
@@ -147,9 +147,9 @@
   
   <entry>
     <title>Missing Semester Lecture8: Metaprogramming</title>
-    <link href="http://turingzhi.github.io/2024/09/03/missing-semester/missing-semester-lecture8/"/>
-    <id>http://turingzhi.github.io/2024/09/03/missing-semester/missing-semester-lecture8/</id>
-    <published>2024-09-03T19:06:21.000Z</published>
+    <link href="http://turingzhi.github.io/2024/09/04/missing-semester/missing-semester-lecture8/"/>
+    <id>http://turingzhi.github.io/2024/09/04/missing-semester/missing-semester-lecture8/</id>
+    <published>2024-09-03T22:06:21.000Z</published>
     <updated>2024-12-22T00:44:58.792Z</updated>
     
     
@@ -174,7 +174,7 @@
     <title>Tutorial for Starters for Coders on Mac</title>
     <link href="http://turingzhi.github.io/2024/08/16/tutorial-for-starters/"/>
     <id>http://turingzhi.github.io/2024/08/16/tutorial-for-starters/</id>
-    <published>2024-08-16T13:57:29.000Z</published>
+    <published>2024-08-16T16:57:29.000Z</published>
     <updated>2024-08-16T14:56:42.017Z</updated>
     
     
@@ -203,7 +203,7 @@
     <title>Algorithms for Massive Datasets</title>
     <link href="http://turingzhi.github.io/2024/08/15/algorithms-for-massive-datasets/"/>
     <id>http://turingzhi.github.io/2024/08/15/algorithms-for-massive-datasets/</id>
-    <published>2024-08-15T13:13:00.000Z</published>
+    <published>2024-08-15T16:13:00.000Z</published>
     <updated>2024-12-22T00:27:24.192Z</updated>
     
     
@@ -228,7 +228,7 @@
     <title>Missing Semester Lecture7: Debugging and Profiling</title>
     <link href="http://turingzhi.github.io/2024/07/11/missing-semester/missing-semester-lecture7/"/>
     <id>http://turingzhi.github.io/2024/07/11/missing-semester/missing-semester-lecture7/</id>
-    <published>2024-07-11T04:13:55.000Z</published>
+    <published>2024-07-11T07:13:55.000Z</published>
     <updated>2024-12-22T00:44:51.447Z</updated>
     
     
@@ -253,9 +253,9 @@
   
   <entry>
     <title>Missing Semester Lecture6: Version Control(git)</title>
-    <link href="http://turingzhi.github.io/2024/04/26/missing-semester/missing-semester-lecture6/"/>
-    <id>http://turingzhi.github.io/2024/04/26/missing-semester/missing-semester-lecture6/</id>
-    <published>2024-04-26T20:03:57.000Z</published>
+    <link href="http://turingzhi.github.io/2024/04/27/missing-semester/missing-semester-lecture6/"/>
+    <id>http://turingzhi.github.io/2024/04/27/missing-semester/missing-semester-lecture6/</id>
+    <published>2024-04-26T23:03:57.000Z</published>
     <updated>2024-12-22T00:44:43.398Z</updated>
     
     
@@ -278,9 +278,9 @@
   
   <entry>
     <title>Missing Semester Lecture5: Command-line Environment</title>
-    <link href="http://turingzhi.github.io/2024/04/22/missing-semester/missing-semester-lecture5/"/>
-    <id>http://turingzhi.github.io/2024/04/22/missing-semester/missing-semester-lecture5/</id>
-    <published>2024-04-22T20:48:25.000Z</published>
+    <link href="http://turingzhi.github.io/2024/04/23/missing-semester/missing-semester-lecture5/"/>
+    <id>http://turingzhi.github.io/2024/04/23/missing-semester/missing-semester-lecture5/</id>
+    <published>2024-04-22T23:48:25.000Z</published>
     <updated>2024-12-22T00:44:35.575Z</updated>
     
     
@@ -305,7 +305,7 @@
     <title>Missing Semester Lecture4: Data Wrangling</title>
     <link href="http://turingzhi.github.io/2024/04/21/missing-semester/missing-semester-lecture4/"/>
     <id>http://turingzhi.github.io/2024/04/21/missing-semester/missing-semester-lecture4/</id>
-    <published>2024-04-21T15:57:46.000Z</published>
+    <published>2024-04-21T18:57:46.000Z</published>
     <updated>2024-12-22T00:44:27.495Z</updated>
     
     
@@ -330,7 +330,7 @@
     <title>Missing Semester Lecture3: Editor(vim)</title>
     <link href="http://turingzhi.github.io/2024/04/19/missing-semester/missing-semester-lecture3/"/>
     <id>http://turingzhi.github.io/2024/04/19/missing-semester/missing-semester-lecture3/</id>
-    <published>2024-04-19T00:44:29.000Z</published>
+    <published>2024-04-19T03:44:29.000Z</published>
     <updated>2024-12-22T00:44:17.401Z</updated>
     
     
@@ -355,7 +355,7 @@
     <title>Missing Semester Lecture2: Shell Tools and Scripting</title>
     <link href="http://turingzhi.github.io/2024/04/15/missing-semester/missing-semester-lecture2/"/>
     <id>http://turingzhi.github.io/2024/04/15/missing-semester/missing-semester-lecture2/</id>
-    <published>2024-04-15T17:23:21.000Z</published>
+    <published>2024-04-15T20:23:21.000Z</published>
     <updated>2024-12-22T00:44:01.896Z</updated>
     
     
@@ -380,7 +380,7 @@
     <title>Missing Semester Lecture1: Course Overview + The Shell</title>
     <link href="http://turingzhi.github.io/2024/04/15/missing-semester/missing-semester-lecture1/"/>
     <id>http://turingzhi.github.io/2024/04/15/missing-semester/missing-semester-lecture1/</id>
-    <published>2024-04-15T17:09:26.000Z</published>
+    <published>2024-04-15T20:09:26.000Z</published>
     <updated>2024-12-22T00:41:23.697Z</updated>
     
     
