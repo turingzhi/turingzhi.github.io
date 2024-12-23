@@ -6,15 +6,13 @@
   <meta name="keywords" content=" CS61A , Higher-order Function ">
   <meta name="description" content="Higher-order Function | Hexo">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-<meta name="description" content="Cannot find the page you want :(">
 <meta property="og:type" content="website">
-<meta property="og:title" content="404">
-<meta property="og:url" content="http://turingzhi.github.io/404.html">
+<meta property="og:title" content="about">
+<meta property="og:url" content="http://turingzhi.github.io/about/index.html">
 <meta property="og:site_name" content="Hexo">
-<meta property="og:description" content="Cannot find the page you want :(">
 <meta property="og:locale" content="en_US">
-<meta property="article:published_time" content="2024-04-16T21:39:00.000Z">
-<meta property="article:modified_time" content="2024-04-16T22:42:31.739Z">
+<meta property="article:published_time" content="2024-04-16T21:29:53.000Z">
+<meta property="article:modified_time" content="2024-04-16T22:42:31.773Z">
 <meta property="article:author" content="Turingzhi">
 <meta name="twitter:card" content="summary">
 
@@ -159,9 +157,9 @@ mjx-container[display="true"] {
 mjx-container[display="true"] + br {
   display: none;
 }
-</style>
+</style><link rel="alternate" href="/atom.xml" title="Hexo" type="application/atom+xml">
+
 <style>.github-emoji { position: relative; display: inline-block; width: 1.2em; min-height: 1.2em; overflow: hidden; vertical-align: top; color: transparent; }  .github-emoji > span { position: relative; z-index: 10; }  .github-emoji img, .github-emoji .fancybox { margin: 0 !important; padding: 0 !important; border: none !important; outline: none !important; text-decoration: none !important; user-select: none !important; cursor: auto !important; }  .github-emoji img { height: 1.2em !important; width: 1.2em !important; position: absolute !important; left: 50% !important; top: 50% !important; transform: translate(-50%, -50%) !important; user-select: none !important; cursor: auto !important; } .github-emoji-fallback { color: inherit; } .github-emoji-fallback img { opacity: 0 !important; }</style>
-<link rel="alternate" href="/atom.xml" title="Hexo" type="application/atom+xml">
 </head>
 <div style="display: none">
   <input class="theme_disqus_on" value="false">
@@ -638,7 +636,7 @@ mjx-container[display="true"] + br {
     </div>
     <div class="article-meta">
         
-            Created At : <time class="date" title='Updated At: 2024-12-23 04:24:58'>2024-12-23 03:57</time>
+            Created At : <time class="date" title='Updated At: 2024-12-23 23:00:34'>2024-12-23 03:57</time>
         
     </div>
     <div class="article-meta">
@@ -692,7 +690,7 @@ def compose1(f,g):
 
 compose1(square,make_adder(2)(3))
 </code></pre>
-<p><img src="/CS61A/Higher-order-Function/code-of-higher-order-function.jpg" alt="Higher-order Function"></p>
+<p><img src="Higher-order-Function/code-of-higher-order-function.jpg" alt="Higher-order Function"></p>
 <p>Pay attention to the order of the function, the inner function is executed first, then the outer function is executed.</p>
 <p>And local frame and global frame are different, the local frame is created when the function is called, and the global frame is created when the program is executed.</p>
 <p>There are different ways to call a function, such as <code>f(x)</code> and <code>f(x)(y)</code>, the first one is to call the function <code>f</code> with the argument <code>x</code>, and the second one is to call the function <code>f(x)</code> with the argument <code>y</code>.</p>
