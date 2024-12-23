@@ -6,7 +6,7 @@
   <link href="http://turingzhi.github.io/atom.xml" rel="self"/>
   
   <link href="http://turingzhi.github.io/"/>
-  <updated>2024-12-22T00:43:50.676Z</updated>
+  <updated>2024-12-23T03:15:44.999Z</updated>
   <id>http://turingzhi.github.io/</id>
   
   <author>
@@ -15,6 +15,33 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>post</title>
+    <link href="http://turingzhi.github.io/2024/12/23/cs61a/higher-order-function/"/>
+    <id>http://turingzhi.github.io/2024/12/23/cs61a/higher-order-function/</id>
+    <published>2024-12-23T02:57:47.000Z</published>
+    <updated>2024-12-23T03:15:44.999Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;Higher-order-Function&quot;&gt;&lt;a href=&quot;#Higher-order-Function&quot; class=&quot;headerlink&quot; title=&quot;Higher-order Function&quot;&gt;&lt;/a&gt;Higher-order</summary>
+        
+      
+    
+    
+    
+    <category term="CS61A" scheme="http://turingzhi.github.io/categories/CS61A/"/>
+    
+    
+    <category term="CS61A" scheme="http://turingzhi.github.io/tags/CS61A/"/>
+    
+    <category term="Higher-order Function" scheme="http://turingzhi.github.io/tags/Higher-order-Function/"/>
+    
+  </entry>
   
   <entry>
     <title>Missing Semester Lecture11: Q&amp;A</title>
