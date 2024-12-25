@@ -6,7 +6,7 @@
   <link href="http://turingzhi.github.io/atom.xml" rel="self"/>
   
   <link href="http://turingzhi.github.io/"/>
-  <updated>2024-12-23T22:46:06.935Z</updated>
+  <updated>2024-12-25T02:27:13.369Z</updated>
   <id>http://turingzhi.github.io/</id>
   
   <author>
@@ -17,11 +17,38 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>Recursion</title>
+    <link href="http://turingzhi.github.io/2024/12/25/cs61a/recursion/"/>
+    <id>http://turingzhi.github.io/2024/12/25/cs61a/recursion/</id>
+    <published>2024-12-25T04:21:42.000Z</published>
+    <updated>2024-12-25T02:27:13.369Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;Recursion&quot;&gt;&lt;a href=&quot;#Recursion&quot; class=&quot;headerlink&quot; title=&quot;Recursion&quot;&gt;&lt;/a&gt;Recursion&lt;/h1&gt;&lt;pre&gt;&lt;code class=&quot;lang-python&quot;&gt;def</summary>
+        
+      
+    
+    
+    
+    <category term="CS61A" scheme="http://turingzhi.github.io/categories/CS61A/"/>
+    
+    
+    <category term="CS61A" scheme="http://turingzhi.github.io/tags/CS61A/"/>
+    
+    <category term="Recursion" scheme="http://turingzhi.github.io/tags/Recursion/"/>
+    
+  </entry>
+  
+  <entry>
     <title>Higher-order Function</title>
     <link href="http://turingzhi.github.io/2024/12/23/cs61a/higher-order-function/"/>
     <id>http://turingzhi.github.io/2024/12/23/cs61a/higher-order-function/</id>
     <published>2024-12-23T04:57:47.000Z</published>
-    <updated>2024-12-23T22:46:06.935Z</updated>
+    <updated>2024-12-24T02:08:45.779Z</updated>
     
     
       

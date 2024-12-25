@@ -210,7 +210,7 @@ mjx-container[display="true"] + br {
     <li>
         <div class="all active" data-rel="All">All
             
-                <small>(16)</small>
+                <small>(17)</small>
             
         </div>
     </li>
@@ -237,7 +237,7 @@ mjx-container[display="true"] + br {
         <div data-rel="CS61A">
             
             CS61A
-            <small>(1)</small>
+            <small>(2)</small>
         </div>
         
     </li>
@@ -320,7 +320,7 @@ mjx-container[display="true"] + br {
         
     </div>
 </div>
-<input type="hidden" id="yelog_site_posts_number" value="16">
+<input type="hidden" id="yelog_site_posts_number" value="17">
 
 <div style="display: none">
     <span id="busuanzi_value_site_uv"></span>
@@ -417,6 +417,10 @@ mjx-container[display="true"] + br {
             </li>
         
             <li class="article-tag-list-item">
+                <i class="iconfont icon-tag"></i><a>Recursion</a>
+            </li>
+        
+            <li class="article-tag-list-item">
                 <i class="iconfont icon-tag"></i><a>Security</a>
             </li>
         
@@ -446,6 +450,15 @@ mjx-container[display="true"] + br {
 
     
     <nav id="title-list-nav">
+        
+        
+        <a  class="All CS61A "
+           href="/2024/12/25/cs61a/recursion/"
+           data-tag="CS61A,Recursion"
+           data-author="" >
+            <span class="post-title" title="Recursion">Recursion</span>
+            <span class="post-date" title="2024-12-25 03:21:42">2024/12/25</span>
+        </a>
         
         
         <a  class="All CS61A "
@@ -638,7 +651,7 @@ mjx-container[display="true"] + br {
     </div>
     <div class="article-meta">
         
-            Created At : <time class="date" title='Updated At: 2024-12-23 21:46:06'>2024-12-23 03:57</time>
+            Created At : <time class="date" title='Updated At: 2024-12-24 01:08:45'>2024-12-23 03:57</time>
         
     </div>
     <div class="article-meta">
@@ -660,7 +673,7 @@ mjx-container[display="true"] + br {
     
     <div class="toc-ref">
     
-        <ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#Higher-order-Function"><span class="toc-text">Higher-order Function</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#Nested-Function"><span class="toc-text">Nested Function</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#Lambda-Expression"><span class="toc-text">Lambda Expression</span></a></li></ol>
+        <ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#Higher-order-Function"><span class="toc-text">Higher-order Function</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#Nested-Function"><span class="toc-text">Nested Function</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#Decorator"><span class="toc-text">Decorator</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#Lambda-Expression"><span class="toc-text">Lambda Expression</span></a></li></ol>
     
 <style>
     .left-col .switch-btn,
@@ -696,8 +709,27 @@ compose1(square,make_adder(2)(3))
 <p>Pay attention to the order of the function, the inner function is executed first, then the outer function is executed.</p>
 <p>And local frame and global frame are different, the local frame is created when the function is called, and the global frame is created when the program is executed.</p>
 <p>There are different ways to call a function, such as <code>f(x)</code> and <code>f(x)(y)</code>, the first one is to call the function <code>f</code> with the argument <code>x</code>, and the second one is to call the function <code>f(x)</code> with the argument <code>y</code>.</p>
+<p>I think the value of Higher-order function is to split one function into two functions or more to make them more flexible<br>for example:<br>We can use Higher-order function to make an achievement:<br>Pow(2,3) by pow(2)(3)<br>And then, we can add some more conditions inside functions</p>
 <h1 id="Nested-Function"><a href="#Nested-Function" class="headerlink" title="Nested Function"></a>Nested Function</h1><p>A nested function is a function that is defined inside another function. It is used to define a function that is used only within the scope of the outer function.</p>
 <p>And pay attention to the parent of the frame, the parent of the frame is the frame that is created when the function is called, and the parent of the parent of the frame is the frame that is created when the outer function is called.</p>
+<h1 id="Decorator"><a href="#Decorator" class="headerlink" title="Decorator"></a>Decorator</h1><p>A decorator is a function that takes a function as an argument and returns a function as a result. It is used to add functionality to an existing function without modifying the function itself.</p>
+<p>It is another form of Higher-order Function, and it is used to add functionality to an existing function without modifying the function itself.</p>
+<pre><code class="lang-python">def trace1(fn):
+    def traced(x):
+        print('Calling', fn, 'on argument', x)
+        return fn(x)
+    return traced
+
+@trace1
+def square(x):
+    return x * x
+
+def square(x):
+    return x * x
+
+square = trace1(square)
+</code></pre>
+<p>These two forms are equivalent, the first one is to use the <code>@</code> symbol to decorate the function, and the second one is to use the assignment statement to decorate the function which is a usage of Higher-order Function.</p>
 <h1 id="Lambda-Expression"><a href="#Lambda-Expression" class="headerlink" title="Lambda Expression"></a>Lambda Expression</h1><p>A lambda expression is a function that is defined using the <code>lambda</code> keyword, which is a short way to define a function. It is used to define a function that is used only once and does not have a name.</p>
 
       
