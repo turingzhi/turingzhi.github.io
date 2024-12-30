@@ -4,6 +4,25 @@
   
     
     <entry>
+      <title>Array</title>
+      <link href="/2024/12/30/cs61a/array/"/>
+      <url>/2024/12/30/cs61a/array/</url>
+      
+        <content type="html"><![CDATA[<h1 id="Array"><a href="#Array" class="headerlink" title="Array"></a>Array</h1><pre><code class="lang-python"> fastest = [[] for _ in player_indices]</code></pre><p>A smart way to create a 2D array in Python</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> CS61A </category>
+          
+      </categories>
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>Recursion</title>
       <link href="/2024/12/25/cs61a/recursion/"/>
       <url>/2024/12/25/cs61a/recursion/</url>

@@ -6,7 +6,7 @@
   <link href="http://turingzhi.github.io/atom.xml" rel="self"/>
   
   <link href="http://turingzhi.github.io/"/>
-  <updated>2024-12-25T02:27:13.369Z</updated>
+  <updated>2024-12-30T03:32:49.120Z</updated>
   <id>http://turingzhi.github.io/</id>
   
   <author>
@@ -15,6 +15,29 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Array</title>
+    <link href="http://turingzhi.github.io/2024/12/30/cs61a/array/"/>
+    <id>http://turingzhi.github.io/2024/12/30/cs61a/array/</id>
+    <published>2024-12-30T05:31:53.000Z</published>
+    <updated>2024-12-30T03:32:49.120Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;Array&quot;&gt;&lt;a href=&quot;#Array&quot; class=&quot;headerlink&quot; title=&quot;Array&quot;&gt;&lt;/a&gt;Array&lt;/h1&gt;&lt;pre&gt;&lt;code class=&quot;lang-python&quot;&gt; fastest = [[] for _ in</summary>
+        
+      
+    
+    
+    
+    <category term="CS61A" scheme="http://turingzhi.github.io/categories/CS61A/"/>
+    
+    
+  </entry>
   
   <entry>
     <title>Recursion</title>
