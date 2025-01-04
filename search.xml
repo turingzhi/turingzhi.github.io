@@ -4,6 +4,33 @@
   
     
     <entry>
+      <title>post</title>
+      <link href="/2025/01/05/cs61a/listandnonlocal/"/>
+      <url>/2025/01/05/cs61a/listandnonlocal/</url>
+      
+        <content type="html"><![CDATA[<h1 id="List"><a href="#List" class="headerlink" title="List"></a>List</h1><pre><code class="lang-python">a = [1,2,3]b = ab[0] = 4a&gt;&gt;&gt;[4,2,3]</code></pre><p>Because a points an array, and b points to the same array. a and b are independent, but they are able to access the same array so they can change the array</p><h1 id="Nonlocal"><a href="#Nonlocal" class="headerlink" title="Nonlocal"></a>Nonlocal</h1><p>Nonlocal is a good way to change variables in the frame of parents, especially the frame of parents is not global frame</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> CS61A </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> List </tag>
+            
+            <tag> Nonlocal </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>Array</title>
       <link href="/2024/12/30/cs61a/array/"/>
       <url>/2024/12/30/cs61a/array/</url>

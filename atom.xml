@@ -6,7 +6,7 @@
   <link href="http://turingzhi.github.io/atom.xml" rel="self"/>
   
   <link href="http://turingzhi.github.io/"/>
-  <updated>2024-12-30T03:32:49.120Z</updated>
+  <updated>2025-01-04T22:39:17.447Z</updated>
   <id>http://turingzhi.github.io/</id>
   
   <author>
@@ -15,6 +15,36 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>post</title>
+    <link href="http://turingzhi.github.io/2025/01/05/cs61a/listandnonlocal/"/>
+    <id>http://turingzhi.github.io/2025/01/05/cs61a/listandnonlocal/</id>
+    <published>2025-01-05T00:20:49.000Z</published>
+    <updated>2025-01-04T22:39:17.447Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;List&quot;&gt;&lt;a href=&quot;#List&quot; class=&quot;headerlink&quot; title=&quot;List&quot;&gt;&lt;/a&gt;List&lt;/h1&gt;&lt;pre&gt;&lt;code class=&quot;lang-python&quot;&gt;
+a = [1,2,3]
+b = a
+b[0] =</summary>
+        
+      
+    
+    
+    
+    <category term="CS61A" scheme="http://turingzhi.github.io/categories/CS61A/"/>
+    
+    
+    <category term="List" scheme="http://turingzhi.github.io/tags/List/"/>
+    
+    <category term="Nonlocal" scheme="http://turingzhi.github.io/tags/Nonlocal/"/>
+    
+  </entry>
   
   <entry>
     <title>Array</title>
