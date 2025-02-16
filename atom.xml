@@ -6,7 +6,7 @@
   <link href="http://turingzhi.github.io/atom.xml" rel="self"/>
   
   <link href="http://turingzhi.github.io/"/>
-  <updated>2025-01-04T22:39:17.447Z</updated>
+  <updated>2025-01-05T20:49:15.474Z</updated>
   <id>http://turingzhi.github.io/</id>
   
   <author>
@@ -17,11 +17,11 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>post</title>
+    <title>List and Nonlocal</title>
     <link href="http://turingzhi.github.io/2025/01/05/cs61a/listandnonlocal/"/>
     <id>http://turingzhi.github.io/2025/01/05/cs61a/listandnonlocal/</id>
     <published>2025-01-05T00:20:49.000Z</published>
-    <updated>2025-01-04T22:39:17.447Z</updated>
+    <updated>2025-01-05T20:49:15.474Z</updated>
     
     
       
@@ -29,9 +29,7 @@
         
         
     <summary type="html">&lt;h1 id=&quot;List&quot;&gt;&lt;a href=&quot;#List&quot; class=&quot;headerlink&quot; title=&quot;List&quot;&gt;&lt;/a&gt;List&lt;/h1&gt;&lt;pre&gt;&lt;code class=&quot;lang-python&quot;&gt;
-a = [1,2,3]
-b = a
-b[0] =</summary>
+&amp;gt;&amp;gt;&amp;gt;a =</summary>
         
       
     
