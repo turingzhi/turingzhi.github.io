@@ -47,7 +47,9 @@
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.css">
 
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/hexo-math@4.0.0/dist/style.css">
-<!-- hexo injector head_end end --><meta name="generator" content="Hexo 7.3.0"><style>mjx-container[jax="SVG"] {
+<!-- hexo injector head_end end --><meta name="generator" content="Hexo 7.3.0">
+<style>.github-emoji { position: relative; display: inline-block; width: 1.2em; min-height: 1.2em; overflow: hidden; vertical-align: top; color: transparent; }  .github-emoji > span { position: relative; z-index: 10; }  .github-emoji img, .github-emoji .fancybox { margin: 0 !important; padding: 0 !important; border: none !important; outline: none !important; text-decoration: none !important; user-select: none !important; cursor: auto !important; }  .github-emoji img { height: 1.2em !important; width: 1.2em !important; position: absolute !important; left: 50% !important; top: 50% !important; transform: translate(-50%, -50%) !important; user-select: none !important; cursor: auto !important; } .github-emoji-fallback { color: inherit; } .github-emoji-fallback img { opacity: 0 !important; }</style>
+<style>mjx-container[jax="SVG"] {
   direction: ltr;
 }
 
@@ -160,8 +162,6 @@ mjx-container[display="true"] + br {
   display: none;
 }
 </style><link rel="alternate" href="/atom.xml" title="Hexo" type="application/atom+xml">
-
-<style>.github-emoji { position: relative; display: inline-block; width: 1.2em; min-height: 1.2em; overflow: hidden; vertical-align: top; color: transparent; }  .github-emoji > span { position: relative; z-index: 10; }  .github-emoji img, .github-emoji .fancybox { margin: 0 !important; padding: 0 !important; border: none !important; outline: none !important; text-decoration: none !important; user-select: none !important; cursor: auto !important; }  .github-emoji img { height: 1.2em !important; width: 1.2em !important; position: absolute !important; left: 50% !important; top: 50% !important; transform: translate(-50%, -50%) !important; user-select: none !important; cursor: auto !important; } .github-emoji-fallback { color: inherit; } .github-emoji-fallback img { opacity: 0 !important; }</style>
 </head>
 <div style="display: none">
   <input class="theme_disqus_on" value="false">
@@ -677,7 +677,7 @@ mjx-container[display="true"] + br {
     </div>
     <div class="article-meta">
         
-            Created At : <time class="date" title='Updated At: 2025-01-05 19:49:15'>2025-01-04 23:20</time>
+            Created At : <time class="date" title='Updated At: 2025-02-24 11:15:50'>2025-01-04 23:20</time>
         
     </div>
     <div class="article-meta">
@@ -699,7 +699,7 @@ mjx-container[display="true"] + br {
     
     <div class="toc-ref">
     
-        <ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#List"><span class="toc-text">List</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#Nonlocal"><span class="toc-text">Nonlocal</span></a></li></ol>
+        <ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#List"><span class="toc-text">List</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#List-Methods"><span class="toc-text">List Methods</span></a></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#Nonlocal"><span class="toc-text">Nonlocal</span></a></li></ol>
     
 <style>
     .left-col .switch-btn,
@@ -723,6 +723,60 @@ mjx-container[display="true"] + br {
 [4,2,3]
 </code></pre>
 <p>Because a points an array, and b points to the same array. a and b are independent, but they are able to access the same array so they can change the array</p>
+<h2 id="List-Methods"><a href="#List-Methods" class="headerlink" title="List Methods"></a>List Methods</h2><pre><code class="lang-python">my_list = [10, 20, 30]
+
+# Add operations
+my_list.append(40)       # Adds 40 at the end
+my_list.insert(1, 15)    # Inserts 15 at index 1
+my_list.extend([50, 60]) # Adds 50 and 60 at the end
+
+# Remove operations
+my_list.remove(20)  # Removes the first occurrence of 20
+my_list.pop(2)      # Removes the element at index 2
+del my_list[1]      # Deletes the element at index 1
+
+print(my_list)  # Output after operations
+</code></pre>
+<p>It is crucial to have <code>:</code> inside the <code>[]</code> when using <code>remove</code> or <code>pop</code> method. Otherwise, it will raise an error which is skipping some arguments.</p>
+<pre><code class="lang-python">class InstructorCard(Card):
+    cardtype = 'Instructor'
+
+    def effect(self, opponent_card, player, opponent):
+        """
+        Adds the attack and defense of the opponent's card to
+        all cards in the player's deck, then removes all cards
+        in the opponent's deck that share an attack or defense
+        stat with the opponent's card.
+        &gt;&gt;&gt; test_card = Card('card', 300, 300)
+        &gt;&gt;&gt; instructor_test = InstructorCard('Instructor', 500, 500)
+        &gt;&gt;&gt; opponent_card = test_card.copy()
+        &gt;&gt;&gt; test_deck = Deck([test_card.copy() for _ in range(8)])
+        &gt;&gt;&gt; player1, player2 = Player(test_deck.copy(), 'p1'), Player(test_deck.copy(), 'p2')
+        &gt;&gt;&gt; instructor_test.effect(opponent_card, player1, player2)
+        3 cards were discarded from p2's deck!
+        &gt;&gt;&gt; [(card.attack, card.defense) for card in player1.deck.cards]
+        [(600, 600), (600, 600), (600, 600)]
+        &gt;&gt;&gt; len(player2.deck.cards)
+        0
+        """
+        orig_opponent_deck_length = len(opponent.deck.cards)
+        "*** YOUR CODE HERE ***"
+        for element in player.deck.cards:
+            element.attack += opponent_card.attack
+            element.defense += opponent_card.defense
+        for element2 in opponent.deck.cards[:]:
+            if element2.attack == opponent_card.attack or element2.defense == opponent_card.defense:
+                opponent.deck.cards.remove(element2)
+
+        # You should add your implementation above this.
+        discarded = orig_opponent_deck_length - len(opponent.deck.cards)
+        if discarded:
+            print('{} cards were discarded from {}\'s deck!'.format(discarded, opponent.name))
+            return
+
+    def copy(self):
+        return InstructorCard(self.name, self.attack, self.defense)
+</code></pre>
 <h1 id="Nonlocal"><a href="#Nonlocal" class="headerlink" title="Nonlocal"></a>Nonlocal</h1><p>Nonlocal is a good way to change variables in the frame of parents, especially the frame of parents is not global frame</p>
 
       
