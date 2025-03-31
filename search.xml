@@ -4,6 +4,19 @@
   
     
     <entry>
+      <title>post</title>
+      <link href="/2025/03/19/cs61a/composition/"/>
+      <url>/2025/03/19/cs61a/composition/</url>
+      
+        <content type="html"><![CDATA[<pre><code class="lang-python">def store_digits(n):    """Stores the digits of a positive number n in a linked list.    &gt;&gt;&gt; s = store_digits(1)    &gt;&gt;&gt; s    Link(1)    &gt;&gt;&gt; store_digits(2345)    Link(2, Link(3, Link(4, Link(5))))    &gt;&gt;&gt; store_digits(876)    Link(8, Link(7, Link(6)))    &gt;&gt;&gt; # a check for restricted functions    &gt;&gt;&gt; import inspect, re    &gt;&gt;&gt; cleaned = re.sub(r"#.*\\n", '', re.sub(r'"{3}[\s\S]*?"{3}', '', inspect.getsource(store_digits)))    &gt;&gt;&gt; print("Do not use str or reversed!") if any([r in cleaned for r in ["str", "reversed"]]) else None    """    "*** YOUR CODE HERE ***"        def helper(n, prev):        if n &lt; 10:            return Link(n, prev)        else:            return helper(n//10, Link(n % 10, prev))    return helper(n, Link.empty)</code></pre><h1 id="Composition"><a href="#Composition" class="headerlink" title="Composition"></a>Composition</h1><ul><li>In this case, we avoid using str or reversed</li><li>composition is a powerful tool for building complex functions from simpler ones</li><li>it is a way to combine functions in a way that allows us to break down a complex problem into simpler parts</li><li>the output of one function is the input of another function</li><li>use helper function to store the digits of a positive number n in a linked list</li><li>if n &lt; 10, return Link(n, prev)</li><li>else, return helper(n//10, Link(n % 10, prev))</li><li>return helper(n, Link.empty) to start the recursion</li></ul>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>List and Nonlocal</title>
       <link href="/2025/01/05/cs61a/listandnonlocal/"/>
       <url>/2025/01/05/cs61a/listandnonlocal/</url>

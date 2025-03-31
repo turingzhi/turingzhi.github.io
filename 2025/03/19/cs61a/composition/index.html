@@ -2,9 +2,9 @@
 <html>
 <head>
   <meta charset="utf-8">
-  <title>Array | Hexo</title>
+  <title>post | Hexo</title>
   <meta name="keywords" content="">
-  <meta name="description" content="Array | Hexo">
+  <meta name="description" content="post | Hexo">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 <meta name="description" content="Cannot find the page you want :(">
 <meta property="og:type" content="website">
@@ -657,27 +657,19 @@ mjx-container[display="true"] + br {
 </aside>
 <div id="post">
     <div class="pjax">
-        <article id="post-cs61a/Array" class="article article-type-post" itemscope itemprop="blogPost">
+        <article id="post-cs61a/Composition" class="article article-type-post" itemscope itemprop="blogPost">
     
-        <h1 class="article-title">Array</h1>
+        <h1 class="article-title">post</h1>
     
     <div class="article-meta">
         
         
-        
-        <span class="book">
-            <i class="iconfont icon-category"></i>
-            
-            
-            <a  data-rel="CS61A">CS61A</a>
-            
-        </span>
         
         
     </div>
     <div class="article-meta">
         
-            Created At : <time class="date" title='Updated At: 2024-12-30 02:32:49'>2024-12-30 04:31</time>
+            Created At : <time class="date" title='Updated At: 2025-03-19 15:52:14'>2025-03-19 17:47</time>
         
     </div>
     <div class="article-meta">
@@ -699,7 +691,7 @@ mjx-container[display="true"] + br {
     
     <div class="toc-ref">
     
-        <ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#Array"><span class="toc-text">Array</span></a></li></ol>
+        <ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#Composition"><span class="toc-text">Composition</span></a></li></ol>
     
 <style>
     .left-col .switch-btn,
@@ -715,9 +707,39 @@ mjx-container[display="true"] + br {
     
     <div class="article-entry" itemprop="articleBody">
       
-        <h1 id="Array"><a href="#Array" class="headerlink" title="Array"></a>Array</h1><pre><code class="lang-python"> fastest = [[] for _ in player_indices]
+        <pre><code class="lang-python">def store_digits(n):
+    """Stores the digits of a positive number n in a linked list.
+
+    &gt;&gt;&gt; s = store_digits(1)
+    &gt;&gt;&gt; s
+    Link(1)
+    &gt;&gt;&gt; store_digits(2345)
+    Link(2, Link(3, Link(4, Link(5))))
+    &gt;&gt;&gt; store_digits(876)
+    Link(8, Link(7, Link(6)))
+    &gt;&gt;&gt; # a check for restricted functions
+    &gt;&gt;&gt; import inspect, re
+    &gt;&gt;&gt; cleaned = re.sub(r"#.*\\n", '', re.sub(r'"{3}[\s\S]*?"{3}', '', inspect.getsource(store_digits)))
+    &gt;&gt;&gt; print("Do not use str or reversed!") if any([r in cleaned for r in ["str", "reversed"]]) else None
+    """
+    "*** YOUR CODE HERE ***"
+        def helper(n, prev):
+        if n &lt; 10:
+            return Link(n, prev)
+        else:
+            return helper(n//10, Link(n % 10, prev))
+    return helper(n, Link.empty)
 </code></pre>
-<p>A smart way to create a 2D array in Python</p>
+<h1 id="Composition"><a href="#Composition" class="headerlink" title="Composition"></a>Composition</h1><ul>
+<li>In this case, we avoid using str or reversed</li>
+<li>composition is a powerful tool for building complex functions from simpler ones</li>
+<li>it is a way to combine functions in a way that allows us to break down a complex problem into simpler parts</li>
+<li>the output of one function is the input of another function</li>
+<li>use helper function to store the digits of a positive number n in a linked list</li>
+<li>if n &lt; 10, return Link(n, prev)</li>
+<li>else, return helper(n//10, Link(n % 10, prev))</li>
+<li>return helper(n, Link.empty) to start the recursion</li>
+</ul>
 
       
        
