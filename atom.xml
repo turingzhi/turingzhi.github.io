@@ -6,7 +6,7 @@
   <link href="http://turingzhi.github.io/atom.xml" rel="self"/>
   
   <link href="http://turingzhi.github.io/"/>
-  <updated>2025-04-01T20:06:39.674Z</updated>
+  <updated>2025-09-12T18:08:02.589Z</updated>
   <id>http://turingzhi.github.io/</id>
   
   <author>
@@ -15,6 +15,31 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Reference Type</title>
+    <link href="http://turingzhi.github.io/2025/09/12/cs61b/referencetype/"/>
+    <id>http://turingzhi.github.io/2025/09/12/cs61b/referencetype/</id>
+    <published>2025-09-12T20:57:44.000Z</published>
+    <updated>2025-09-12T18:08:02.589Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;Reference-type&quot;&gt;&lt;a href=&quot;#Reference-type&quot; class=&quot;headerlink&quot; title=&quot;Reference type&quot;&gt;&lt;/a&gt;Reference type&lt;/h1&gt;&lt;p&gt;There are eight</summary>
+        
+      
+    
+    
+    
+    <category term="CS61B" scheme="http://turingzhi.github.io/categories/CS61B/"/>
+    
+    
+    <category term="reference type" scheme="http://turingzhi.github.io/tags/reference-type/"/>
+    
+  </entry>
   
   <entry>
     <title>Composition</title>
@@ -508,29 +533,6 @@
     
     
     <category term="shell" scheme="http://turingzhi.github.io/tags/shell/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Hello World</title>
-    <link href="http://turingzhi.github.io/2024/04/15/hello-world/"/>
-    <id>http://turingzhi.github.io/2024/04/15/hello-world/</id>
-    <published>2024-04-15T16:57:41.581Z</published>
-    <updated>2024-04-21T16:10:44.570Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.io/docs/&quot;&gt;documentation&lt;/a&gt;</summary>
-        
-      
-    
-    
-    
-    
-    <category term="hexo" scheme="http://turingzhi.github.io/tags/hexo/"/>
     
   </entry>
   

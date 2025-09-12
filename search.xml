@@ -4,6 +4,31 @@
   
     
     <entry>
+      <title>Reference Type</title>
+      <link href="/2025/09/12/cs61b/referencetype/"/>
+      <url>/2025/09/12/cs61b/referencetype/</url>
+      
+        <content type="html"><![CDATA[<h1 id="Reference-type"><a href="#Reference-type" class="headerlink" title="Reference type"></a>Reference type</h1><p>There are eight primitive types in Java: <code>int</code>, <code>double</code>, <code>boolean</code>, <code>char</code>, <code>byte</code>, <code>short</code>, <code>long</code>, and <code>float</code>. All other types are reference types, including arrays, classes, and interfaces.</p><p>For example, lists are reference types. When you create a list, you are creating a reference to an object in memory that contains the list’s data.</p><p>When you create a list a, then a is a reference to the list object in memory. If you create another reference b and set it equal to a, then both a and b refer to the same list object in memory. If you modify the list through either reference, the change will be reflected when you access the list through either reference.</p><p>Besides, a linked list a has value and next attributes. The value attribute stores the data of the current node, while the next attribute is a reference to the next node in the list. If there is no next node, the next attribute is set to None.</p><p>In C/C++, the reference is a pointer which stores the memory of next node. In Java, the reference is managed by the runtime, you don’t see raw addresses.</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> CS61B </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> reference type </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>Composition</title>
       <link href="/2025/03/19/cs61a/composition/"/>
       <url>/2025/03/19/cs61a/composition/</url>
