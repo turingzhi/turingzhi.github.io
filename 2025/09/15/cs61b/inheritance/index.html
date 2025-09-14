@@ -2,9 +2,9 @@
 <html>
 <head>
   <meta charset="utf-8">
-  <title>Missing Semester Lecture9: Security and Cryptography | Hexo</title>
-  <meta name="keywords" content=" Security , Cryptography ">
-  <meta name="description" content="Missing Semester Lecture9: Security and Cryptography | Hexo">
+  <title>Inheritance | Hexo</title>
+  <meta name="keywords" content=" Inheritance , Interface ">
+  <meta name="description" content="Inheritance | Hexo">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 <meta name="description" content="Cannot find the page you want :(">
 <meta property="og:type" content="website">
@@ -710,9 +710,9 @@ mjx-container[display="true"] + br {
 </aside>
 <div id="post">
     <div class="pjax">
-        <article id="post-missing-semester/missing-semester-lecture9" class="article article-type-post" itemscope itemprop="blogPost">
+        <article id="post-cs61b/inheritance" class="article article-type-post" itemscope itemprop="blogPost">
     
-        <h1 class="article-title">Missing Semester Lecture9: Security and Cryptography</h1>
+        <h1 class="article-title">Inheritance</h1>
     
     <div class="article-meta">
         
@@ -722,7 +722,7 @@ mjx-container[display="true"] + br {
             <i class="iconfont icon-category"></i>
             
             
-            <a  data-rel="Missing">Missing</a>
+            <a  data-rel="CS61B">CS61B</a>
             
         </span>
         
@@ -730,16 +730,16 @@ mjx-container[display="true"] + br {
         <span class="tag">
             <i class="iconfont icon-tag"></i>
             
-            <a class="color4">Security</a>
+            <a class="color2">Inheritance</a>
             
-            <a class="color3">Cryptography</a>
+            <a class="color5">Interface</a>
             
         </span>
         
     </div>
     <div class="article-meta">
         
-            Created At : <time class="date" title='Updated At: 2024-12-21 23:45:10'>2024-11-07 23:27</time>
+            Created At : <time class="date" title='Updated At: 2025-09-14 21:56:04'>2025-09-15 00:37</time>
         
     </div>
     <div class="article-meta">
@@ -761,7 +761,7 @@ mjx-container[display="true"] + br {
     
     <div class="toc-ref">
     
-        <ol class="toc"><li class="toc-item toc-level-3"><a class="toc-link" href="#Security-and-Cryptography"><span class="toc-text">Security and Cryptography</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#Entropy"><span class="toc-text">Entropy</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#Hashing-functions"><span class="toc-text">Hashing functions</span></a><ol class="toc-child"><li class="toc-item toc-level-5"><a class="toc-link" href="#applications"><span class="toc-text">applications</span></a></li></ol></li><li class="toc-item toc-level-4"><a class="toc-link" href="#Key-derivation-functions"><span class="toc-text">Key derivation functions</span></a><ol class="toc-child"><li class="toc-item toc-level-5"><a class="toc-link" href="#applications-1"><span class="toc-text">applications</span></a></li></ol></li><li class="toc-item toc-level-4"><a class="toc-link" href="#Symmetric-encryption"><span class="toc-text">Symmetric encryption</span></a><ol class="toc-child"><li class="toc-item toc-level-5"><a class="toc-link" href="#applications-2"><span class="toc-text">applications</span></a></li></ol></li><li class="toc-item toc-level-4"><a class="toc-link" href="#Asymmetric-encryption"><span class="toc-text">Asymmetric encryption</span></a><ol class="toc-child"><li class="toc-item toc-level-5"><a class="toc-link" href="#applications-3"><span class="toc-text">applications</span></a></li><li class="toc-item toc-level-5"><a class="toc-link" href="#key-distribution"><span class="toc-text">key distribution</span></a></li></ol></li><li class="toc-item toc-level-4"><a class="toc-link" href="#Case-studies"><span class="toc-text">Case studies</span></a><ol class="toc-child"><li class="toc-item toc-level-5"><a class="toc-link" href="#Password-managers"><span class="toc-text">Password managers</span></a></li><li class="toc-item toc-level-5"><a class="toc-link" href="#Two-factor-authentication"><span class="toc-text">Two-factor authentication</span></a></li><li class="toc-item toc-level-5"><a class="toc-link" href="#Full-disk-encryption"><span class="toc-text">Full disk encryption</span></a></li><li class="toc-item toc-level-5"><a class="toc-link" href="#Private-messaging"><span class="toc-text">Private messaging</span></a></li><li class="toc-item toc-level-5"><a class="toc-link" href="#SSH"><span class="toc-text">SSH</span></a></li></ol></li></ol></li></ol>
+        <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#Overview"><span class="toc-text">Overview</span></a></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#Override-and-Overload"><span class="toc-text">Override and Overload</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#Static-vs-Dynamic-Type"><span class="toc-text">Static vs. Dynamic Type</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#Dynamic-Method-Selection"><span class="toc-text">Dynamic Method Selection</span></a>
     
 <style>
     .left-col .switch-btn,
@@ -777,57 +777,26 @@ mjx-container[display="true"] + br {
     
     <div class="article-entry" itemprop="articleBody">
       
-        <h3 id="Security-and-Cryptography"><a href="#Security-and-Cryptography" class="headerlink" title="Security and Cryptography"></a>Security and Cryptography</h3><p>This lecture has a very informal (but we think practical) treatment of basic cryptography concepts. This lecture won’t be enough to teach you how to design secure systems or cryptographic protocols, but we hope it will be enough to give you a general understanding of the programs and protocols you already use.</p>
-<h4 id="Entropy"><a href="#Entropy" class="headerlink" title="Entropy"></a>Entropy</h4><p>Entropy is a measure of randomness. This is useful, for example, when determining the strength of a password.</p>
-<p>Entropy is measured in bits, and when selecting uniformly at random from a set of possible outcomes, the entropy is equal to log_2(# of possibilities). A fair coin flip gives 1 bit of entropy. A dice roll (of a 6-sided die) has ~2.58 bits of entropy.</p>
-<p>How many bits of entropy is enough? It depends on your threat model. For online guessing, as the XKCD comic points out, ~40 bits of entropy is pretty good. To be resistant to offline guessing, a stronger password would be necessary (e.g. 80 bits, or more).</p>
-<h4 id="Hashing-functions"><a href="#Hashing-functions" class="headerlink" title="Hashing functions"></a>Hashing functions</h4><p>An example of a hash function is SHA1, which is used in Git. It maps arbitrary-sized inputs to 160-bit outputs (which can be represented as 40 hexadecimal characters). We can try out the SHA1 hash on an input using the sha1sum command:</p>
-<pre><code class="lang-bash">$ printf 'hello' | sha1sum
-aaf4c61ddcc5e8a2dabede0f3b482cd9aea9434d
-$ printf 'hello' | sha1sum
-aaf4c61ddcc5e8a2dabede0f3b482cd9aea9434d
-$ printf 'Hello' | sha1sum 
-f7ff9e8b7bb2e09b70935a5d785e0cc5d9d0abf0
+        <h2 id="Overview"><a href="#Overview" class="headerlink" title="Overview"></a>Overview</h2><h1 id="Override-and-Overload"><a href="#Override-and-Overload" class="headerlink" title="Override and Overload"></a>Override and Overload</h1><p>In Java, method overriding and method overloading are two fundamental concepts that allow for polymorphism and code reusability.</p>
+<p>The biggest difference is overriding is when a subclass provides a specific implementation of a method that is already defined in its superclass, while overloading is when multiple methods in the same class have the same name but different parameter lists.</p>
+<h1 id="Static-vs-Dynamic-Type"><a href="#Static-vs-Dynamic-Type" class="headerlink" title="Static vs. Dynamic Type"></a>Static vs. Dynamic Type</h1><p>Every variable in Java has a static type. This is the type specified<br>when the variable is declared, and is checked at compile time. Every<br>variable also has a dynamic type; this type is specified when the<br>variable is instantiated, and is checked at runtime. As an example:</p>
+<pre><code class="lang-java">Thing a;
+a = new Fox();
 </code></pre>
-<h5 id="applications"><a href="#applications" class="headerlink" title="applications"></a>applications</h5><ul>
-<li>Git, for content-addressed storage. The idea of a hash function is a more general concept (there are non-cryptographic hash functions). Why does Git use a cryptographic hash function?</li>
-<li>A short summary of the contents of a file. Software can often be downloaded from (potentially less trustworthy) mirrors, e.g. Linux ISOs, and it would be nice to not have to trust them. The official sites usually post hashes alongside the download links (that point to third-party mirrors), so that the hash can be checked after downloading a file.</li>
-<li>Commitment schemes. Suppose you want to commit to a particular value, but reveal the value itself later. For example, I want to do a fair coin toss “in my head”, without a trusted shared coin that two parties can see. I could choose a value r = random(), and then share h = sha256(r). Then, you could call heads or tails (we’ll agree that even r means heads, and odd r means tails). After you call, I can reveal my value r, and you can confirm that I haven’t cheated by checking sha256(r) matches the hash I shared earlier.</li>
-</ul>
-<h4 id="Key-derivation-functions"><a href="#Key-derivation-functions" class="headerlink" title="Key derivation functions"></a>Key derivation functions</h4><p>A related concept to cryptographic hashes, key derivation functions (KDFs) are used for a number of applications, including producing fixed-length output for use as keys in other cryptographic algorithms. Usually, KDFs are deliberately slow, in order to slow down offline brute-force attacks.</p>
-<h5 id="applications-1"><a href="#applications-1" class="headerlink" title="applications"></a>applications</h5><ul>
-<li>Producing keys from passphrases for use in other cryptographic algorithms (e.g. symmetric cryptography, see below).</li>
-<li>Storing login credentials. Storing plaintext passwords is bad; the right approach is to generate and store a random salt salt = random() for each user, store KDF(password + salt), and verify login attempts by re-computing the KDF given the entered password and the stored salt.</li>
-</ul>
-<h4 id="Symmetric-encryption"><a href="#Symmetric-encryption" class="headerlink" title="Symmetric encryption"></a>Symmetric encryption</h4><p>Hiding message contents is probably the first concept you think about when you think about cryptography. Symmetric cryptography accomplishes this with the following set of functionality:</p>
-<pre><code>keygen() -&gt; key  (this function is randomized)
-
-encrypt(plaintext: array&lt;byte&gt;, key) -&gt; array&lt;byte&gt;  (the ciphertext)
-decrypt(ciphertext: array&lt;byte&gt;, key) -&gt; array&lt;byte&gt;  (the plaintext)
-</code></pre><p>The encrypt function has the property that given the output (ciphertext), it’s hard to determine the input (plaintext) without the key. The decrypt function has the obvious correctness property, that decrypt(encrypt(m, k), k) = m.</p>
-<p>An example of a symmetric cryptosystem in wide use today is AES.</p>
-<h5 id="applications-2"><a href="#applications-2" class="headerlink" title="applications"></a>applications</h5><ul>
-<li>Encrypting files for storage in an untrusted cloud service. This can be combined with KDFs, so you can encrypt a file with a passphrase. Generate key = KDF(passphrase), and then store encrypt(file, key).</li>
-</ul>
-<h4 id="Asymmetric-encryption"><a href="#Asymmetric-encryption" class="headerlink" title="Asymmetric encryption"></a>Asymmetric encryption</h4><p>The term “asymmetric” refers to there being two keys, with two different roles. A private key, as its name implies, is meant to be kept private, while the public key can be publicly shared and it won’t affect security (unlike sharing the key in a symmetric cryptosystem). Asymmetric cryptosystems provide the following set of functionality, to encrypt/decrypt and to sign/verify:</p>
-<pre><code class="lang-bash">keygen() -&gt; (public key, private key)  (this function is randomized)
-
-encrypt(plaintext: array&lt;byte&gt;, public key) -&gt; array&lt;byte&gt;  (the ciphertext)
-decrypt(ciphertext: array&lt;byte&gt;, private key) -&gt; array&lt;byte&gt;  (the plaintext)
-
-sign(message: array&lt;byte&gt;, private key) -&gt; array&lt;byte&gt;  (the signature)
-verify(message: array&lt;byte&gt;, signature: array&lt;byte&gt;, public key) -&gt; bool  (whether or not the signature is valid)
+<p>Here, <code>Thing</code> is the static type, and <code>Fox</code> is the dynamic type. This is<br>fine because all foxes are things.</p>
+<p>We can also do:</p>
+<pre><code class="lang-java">Animal b = (Animal) a;
 </code></pre>
-<p>The decrypt function has the obvious correctness property, that <code>decrypt(encrypt(m, public key), private key) = m</code>.</p>
-<p>Symmetric and asymmetric encryption can be compared to physical locks. A symmetric cryptosystem is like a door lock: anyone with the key can lock and unlock it. Asymmetric encryption is like a padlock with a key. You could give the unlocked lock to someone (the public key), they could put a message in a box and then put the lock on, and after that, only you could open the lock because you kept the key (the private key).</p>
-<p>The sign/verify functions have the same properties that you would hope physical signatures would have, in that it’s hard to forge a signature. No matter the message, without the private key, it’s hard to produce a signature such that <code>verify(message, signature, public key)</code> returns true. And of course, the verify function has the obvious correctness property that <code>verify(message, sign(message, private key), public key) = true</code>.</p>
-<h5 id="applications-3"><a href="#applications-3" class="headerlink" title="applications"></a>applications</h5><ul>
-<li>PGP email encryption. People can have their public keys posted online (e.g. in a PGP keyserver, or on Keybase). Anyone can send them encrypted email.</li>
-<li>Private messaging. Apps like Signal and Keybase use asymmetric keys to establish private communication channels.</li>
-<li>Signing software. Git can have GPG-signed commits and tags. With a posted public key, anyone can verify the authenticity of downloaded software.</li>
-</ul>
-<h5 id="key-distribution"><a href="#key-distribution" class="headerlink" title="key distribution"></a>key distribution</h5><p>Asymmetric-key cryptography is wonderful, but it has a big challenge of distributing public keys / mapping public keys to real-world identities. There are many solutions to this problem. Signal has one simple solution: trust on first use, and support out-of-band public key exchange (you verify your friends’ “safety numbers” in person). PGP has a different solution, which is <a target="_blank" rel="noopener" href="https://en.wikipedia.org/wiki/Web_of_trust">web of trust</a>. Keybase has yet another solution of <a target="_blank" rel="noopener" href="https://keybase.io/blog/chat-apps-softer-than-tofu">social proof</a> (along with other neat ideas). Each model has its merits; we (the instructors) like Keybase’s model.</p>
-<h4 id="Case-studies"><a href="#Case-studies" class="headerlink" title="Case studies"></a>Case studies</h4><h5 id="Password-managers"><a href="#Password-managers" class="headerlink" title="Password managers"></a>Password managers</h5><h5 id="Two-factor-authentication"><a href="#Two-factor-authentication" class="headerlink" title="Two-factor authentication"></a>Two-factor authentication</h5><h5 id="Full-disk-encryption"><a href="#Full-disk-encryption" class="headerlink" title="Full disk encryption"></a>Full disk encryption</h5><h5 id="Private-messaging"><a href="#Private-messaging" class="headerlink" title="Private messaging"></a>Private messaging</h5><h5 id="SSH"><a href="#SSH" class="headerlink" title="SSH"></a>SSH</h5>
+<p>This is fine, because all foxes are animals too. We can do:</p>
+<pre><code class="lang-java">Fox c = (Fox) b;
+</code></pre>
+<p>This is fine, because <code>b</code> points to a <code>Fox</code>. Finally, we can do:</p>
+<pre><code class="lang-java">a = new Squid();
+</code></pre>
+<p>This is fine, because the static type of <code>a</code> is a <code>Thing</code>, and <code>Squid</code><br>is a thing.</p>
+<h1 id="Dynamic-Method-Selection"><a href="#Dynamic-Method-Selection" class="headerlink" title="Dynamic Method Selection"></a>Dynamic Method Selection</h1><p>The rule is, if we have a static type <code>X</code>, and a dynamic type <code>Y</code>, then<br>if <code>Y</code> overrides the method from <code>X</code>, then on runtime, we use the method<br>in <code>Y</code> instead.</p>
+<p><img src="staticAndDynamic.png" alt="Static and Dynamic"></p>
+
       
        
     </div>

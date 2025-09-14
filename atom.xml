@@ -6,7 +6,7 @@
   <link href="http://turingzhi.github.io/atom.xml" rel="self"/>
   
   <link href="http://turingzhi.github.io/"/>
-  <updated>2025-09-12T18:08:02.589Z</updated>
+  <updated>2025-09-14T22:56:04.957Z</updated>
   <id>http://turingzhi.github.io/</id>
   
   <author>
@@ -17,11 +17,38 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>Inheritance</title>
+    <link href="http://turingzhi.github.io/2025/09/15/cs61b/inheritance/"/>
+    <id>http://turingzhi.github.io/2025/09/15/cs61b/inheritance/</id>
+    <published>2025-09-15T01:37:17.000Z</published>
+    <updated>2025-09-14T22:56:04.957Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;Overview&quot;&gt;&lt;a href=&quot;#Overview&quot; class=&quot;headerlink&quot; title=&quot;Overview&quot;&gt;&lt;/a&gt;Overview&lt;/h2&gt;&lt;h1 id=&quot;Override-and-Overload&quot;&gt;&lt;a</summary>
+        
+      
+    
+    
+    
+    <category term="CS61B" scheme="http://turingzhi.github.io/categories/CS61B/"/>
+    
+    
+    <category term="Inheritance" scheme="http://turingzhi.github.io/tags/Inheritance/"/>
+    
+    <category term="Interface" scheme="http://turingzhi.github.io/tags/Interface/"/>
+    
+  </entry>
+  
+  <entry>
     <title>Reference Type</title>
     <link href="http://turingzhi.github.io/2025/09/12/cs61b/referencetype/"/>
     <id>http://turingzhi.github.io/2025/09/12/cs61b/referencetype/</id>
     <published>2025-09-12T20:57:44.000Z</published>
-    <updated>2025-09-12T18:08:02.589Z</updated>
+    <updated>2025-09-12T22:55:18.347Z</updated>
     
     
       
@@ -503,33 +530,6 @@
     
     
     <category term="Missing" scheme="http://turingzhi.github.io/categories/Missing/"/>
-    
-    
-    <category term="shell" scheme="http://turingzhi.github.io/tags/shell/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Missing Semester Lecture1: Course Overview + The Shell</title>
-    <link href="http://turingzhi.github.io/2024/04/15/missing-semester/missing-semester-lecture1/"/>
-    <id>http://turingzhi.github.io/2024/04/15/missing-semester/missing-semester-lecture1/</id>
-    <published>2024-04-15T20:09:26.000Z</published>
-    <updated>2024-12-22T00:41:23.697Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h3 id=&quot;Lecture-1-Course-Overview-The-Shell&quot;&gt;&lt;a href=&quot;#Lecture-1-Course-Overview-The-Shell&quot; class=&quot;headerlink&quot; title=&quot;Lecture 1: Course</summary>
-        
-      
-    
-    
-    
-    <category term="Missing" scheme="http://turingzhi.github.io/categories/Missing/"/>
-    
-    <category term="Semester" scheme="http://turingzhi.github.io/categories/Missing/Semester/"/>
     
     
     <category term="shell" scheme="http://turingzhi.github.io/tags/shell/"/>
